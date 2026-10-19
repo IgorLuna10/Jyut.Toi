@@ -1,0 +1,72 @@
+[
+  {
+    "id": "si1",
+    "hanzi": "詩",
+    "jyutping": "si1",
+    "tone": 1,
+    "english": "poem"
+  },
+  {
+    "id": "si2",
+    "hanzi": "史",
+    "jyutping": "si2",
+    "tone": 2,
+    "english": "history"
+  },
+  {
+    "id": "si3",
+    "hanzi": "試",
+    "jyutping": "si3",
+    "tone": 3,
+    "english": "to try"
+  },
+  {
+    "id": "si4",
+    "hanzi": "時",
+    "jyutping": "si4",
+    "tone": 4,
+    "english": "time"
+  },
+  {
+    "id": "si5",
+    "hanzi": "市",
+    "jyutping": "si5",
+    "tone": 5,
+    "english": "market"
+  },
+  {
+    "id": "si6",
+    "hanzi": "事",
+    "jyutping": "si6",
+    "tone": 6,
+    "english": "matter / business"
+  },
+  {
+    "id": "maai5",
+    "hanzi": "買",
+    "jyutping": "maai5",
+    "tone": 5,
+    "english": "to buy"
+  },
+  {
+    "id": "maai6",
+    "hanzi": "賣",
+    "jyutping": "maai6",
+    "tone": 6,
+    "english": "to sell"
+  },
+  {
+    "id": "tong1",
+    "hanzi": "湯",
+    "jyutping": "tong1",
+    "tone": 1,
+    "english": "soup"
+  },
+  {
+    "id": "tong4",
+    "hanzi": "糖",
+    "jyutping": "tong4",
+    "tone": 4,
+    "english": "sugar / candy"
+  }
+]
