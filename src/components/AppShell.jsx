@@ -126,8 +126,8 @@ export default function AppShell({ isDark, toggleTheme, onExitToLanding }) {
         <>
           {/* Top Sticky Navigation Bar with Solid Non-Ghosting Header */}
           <NavigationHeader
-            streak={progress.streak || 7}
-            xp={progress.xp || 480}
+            streak={progress.streak ?? 0}
+            xp={progress.xp ?? 0}
             isDark={isDark}
             toggleTheme={toggleTheme}
             currentStation={currentStationInfo}
@@ -160,8 +160,8 @@ export default function AppShell({ isDark, toggleTheme, onExitToLanding }) {
             {activeTab === 'profile' && (
               <div className="space-y-4">
                 <ProfileView
-                  streak={progress.streak || 7}
-                  xp={progress.xp || 480}
+                  streak={progress.streak ?? 0}
+                  xp={progress.xp ?? 0}
                   onAddXp={handleAddXp}
                   onLaunchRemediation={handleLaunchRemediation}
                 />
