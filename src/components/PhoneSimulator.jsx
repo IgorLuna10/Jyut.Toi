@@ -194,14 +194,14 @@ export default function PhoneSimulator({ content, streak: initialStreak = 0 }) {
           {activeTab === 'spark' && (
             <div className="p-4 space-y-4">
               <div className="flex items-center justify-between text-xs text-zinc-400 font-medium">
-                <span className="font-mono text-[10px] tracking-wider uppercase">DAILY PRACTICE</span>
-                <span className="text-mtr-red font-mono font-bold">Day 42 / 365</span>
+                <span className="font-mono text-[10px] tracking-wider uppercase">STATION ESSENTIAL</span>
+                <span className="text-mtr-red font-mono font-bold">Station 1 · 中環</span>
               </div>
 
               {/* Main Word Card with Station Tile backdrop */}
               <TileWall themeId="red" isDark={true} className="rounded-2xl p-5 border border-white/15 shadow-xl text-center relative group">
                 <span className="inline-block text-[10px] font-mono font-bold uppercase tracking-wider text-amber-300 bg-black/50 border border-amber-300/30 px-3 py-0.5 rounded-full mb-3 shadow-xs">
-                  Daily Word · 今日一詞
+                  Station Vocab · 本站單字
                 </span>
                 
                 <h3 className="text-5xl font-serif font-black text-white tracking-wider mb-2 drop-shadow-md">
