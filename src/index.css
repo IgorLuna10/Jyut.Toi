@@ -2,19 +2,192 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+  --sal: env(safe-area-inset-left, 0px);
+  --sar: env(safe-area-inset-right, 0px);
+}
+
 @layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+    height: 100%;
+  }
   body {
-    @apply bg-white text-gray-900 transition-colors duration-300 min-h-screen;
+    @apply bg-slate-100 text-slate-900 transition-colors duration-200 antialiased select-none;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    min-height: 100%;
+    min-height: 100dvh;
   }
   body.dark {
-    @apply bg-[#0f0f0f] text-gray-100;
+    @apply bg-[#080A10] text-slate-100;
+  }
+
+  button, [role="button"], a {
+    @apply cursor-pointer;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-mtr-red ring-offset-2 ring-offset-white dark:ring-offset-[#080A10];
   }
 }
 
-.card-shadow {
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+/* Mobile Touch & Safe Area Utilities */
+@layer utilities {
+  .touch-manipulation {
+    touch-action: manipulation;
+  }
+  .pb-safe {
+    padding-bottom: max(calc(env(safe-area-inset-bottom, 0px) + 8px), 16px);
+  }
+  .pt-safe {
+    padding-top: max(calc(env(safe-area-inset-top, 0px) + 12px), 16px);
+  }
+  .h-dvh {
+    height: 100vh;
+    height: 100dvh;
+  }
+  .min-h-dvh {
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+  .max-h-dvh {
+    max-height: 100vh;
+    max-height: 100dvh;
+  }
 }
 
-.dark .card-shadow {
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.5);
+/* 100dvh Flex-Column Full Screen Container */
+.screen-container {
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Glassmorphism with Solid Base to Prevent Ghost-Rendering */
+.solid-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.9);
+}
+.dark .solid-header {
+  background-color: #080A10;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.dark .glass-nav {
+  background: rgba(16, 20, 31, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* Subway Ceramic Tile Mosaic Texture */
+.tile-pattern {
+  background-size: 20px 20px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+}
+
+.dark .tile-pattern {
+  background-size: 20px 20px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+}
+
+/* Subtle Level Tile Backdrop (Never hurting contrast) */
+.level-tile-bg {
+  background-color: var(--level-bg, #080A10);
+  background-image: radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.04) 0%, transparent 60%);
+}
+
+/* Tactile Card Press & Spring Physics */
+.tile-btn {
+  transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.18s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.18s ease;
+}
+.tile-btn:active {
+  transform: scale(0.97) translateY(1px);
+}
+
+/* Answer Option Large Card (min height 72px) */
+.answer-card {
+  min-height: 72px;
+  min-height: clamp(72px, 10vh, 90px);
+  border-radius: 18px;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+.answer-card:active {
+  transform: scale(0.97);
+}
+
+/* Answer Card Shake (Wrong Answer) */
+.card-shake {
+  animation: cardShake 0.3s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+/* Train Track Progress */
+.train-spring {
+  transition: left 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.train-jolt {
+  animation: trainJolt 0.35s ease-out;
+}
+
+/* Animated Soundwave Equalizer */
+.sound-bar {
+  display: inline-block;
+  width: 3px;
+  border-radius: 9999px;
+  background-color: currentColor;
+}
+
+/* Custom scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes cardShake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
+@keyframes trainJolt {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(6px); }
+  40% { transform: translateX(-4px); }
+  60% { transform: translateX(3px); }
+  80% { transform: translateX(-1px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes steamPuff {
+  0% { opacity: 0.8; transform: scale(0.6) translateY(0); }
+  100% { opacity: 0; transform: scale(1.4) translateY(-12px); }
+}
+.steam-puff {
+  animation: steamPuff 0.6s ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

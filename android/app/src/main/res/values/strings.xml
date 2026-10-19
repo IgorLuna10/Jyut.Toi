@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Jyut.Toi</string>
+    <string name="title_activity_main">Jyut.Toi</string>
+    <string name="package_name">com.jyuttoi.app</string>
+    <string name="custom_url_scheme">com.jyuttoi.app</string>
+</resources>

@@ -1,0 +1,2684 @@
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="480" height="720" viewBox="0 0 480 720">
+      
+    <defs>
+      <linearGradient id="wall-grad-taupe-night" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#5E584D" />
+        <stop offset="100%" stop-color="#383329" />
+      </linearGradient>
+      <linearGradient id="tile-bevel" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18" />
+        <stop offset="70%" stop-color="#ffffff" stop-opacity="0" />
+        <stop offset="100%" stop-color="#000000" stop-opacity="0.22" />
+      </linearGradient>
+      <linearGradient id="tile-glaze" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25" />
+        <stop offset="35%" stop-color="#ffffff" stop-opacity="0.05" />
+        <stop offset="100%" stop-color="#000000" stop-opacity="0.15" />
+      </linearGradient>
+    </defs>
+  
+      <rect width="480" height="720" fill="#2A261F" />
+<g transform="translate(0, 0)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.969" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 0)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.878" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 0)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.953" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 0)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.989" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 0)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.918" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 0)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.979" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 0)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.960" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 0)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.923" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 0)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.869" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 0)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.936" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 0)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.895" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 0)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.910" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 0)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.907" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 0)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.923" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 0)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.946" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 0)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.922" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 0)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.855" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 0)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.940" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 0)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.937" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 26)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.915" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 26)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.977" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 26)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.852" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 26)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.868" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 26)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.937" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 26)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.940" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 26)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.978" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 26)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.856" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 26)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.962" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 26)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.928" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 26)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.869" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 26)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.958" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 26)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.902" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 26)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.852" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 26)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.941" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 26)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.969" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 26)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.865" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 26)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.968" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 26)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.934" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 52)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.876" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 52)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.980" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 52)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.908" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 52)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.912" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 52)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.976" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 52)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.860" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 52)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.967" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 52)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.923" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 52)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.881" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 52)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.864" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 52)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.956" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 52)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.924" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 52)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.884" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 52)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.972" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 52)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.910" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 52)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.892" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 52)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.901" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 52)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.934" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 52)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.964" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 78)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.867" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 78)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.877" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 78)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.958" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 78)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.915" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 78)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.977" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 78)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.906" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 78)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.914" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 78)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.853" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 78)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.942" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 78)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.939" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 78)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.955" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 78)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.880" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 78)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.958" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 78)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.893" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 78)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.984" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 78)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.986" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 78)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.898" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 78)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.889" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 78)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.967" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 104)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.861" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 104)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.896" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 104)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.920" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 104)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.976" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 104)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.968" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 104)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.938" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 104)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.912" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 104)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.981" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 104)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.908" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 104)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.982" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 104)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.943" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 104)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.956" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 104)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.976" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 104)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.884" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 104)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.987" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 104)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.854" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 104)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.857" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 104)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.924" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 104)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.916" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 130)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.884" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 130)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.896" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 130)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.865" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 130)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.904" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 130)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.967" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 130)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.876" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 130)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.980" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 130)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.858" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 130)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.901" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 130)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.915" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 130)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.916" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 130)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.867" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 130)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.865" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 130)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.989" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 130)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.919" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 130)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.852" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 130)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.984" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 130)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.850" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 130)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.903" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 156)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.878" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 156)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.907" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 156)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.907" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 156)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.869" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 156)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.965" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 156)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.961" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 156)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.888" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 156)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.918" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 156)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.884" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 156)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.899" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 156)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.916" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 156)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.902" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 156)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.955" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 156)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.923" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 156)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.928" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 156)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.980" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 156)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.948" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 156)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.885" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 156)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.931" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 182)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.888" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 182)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.865" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 182)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.987" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 182)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.940" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 182)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.875" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 182)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.884" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 182)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.937" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 182)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.976" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 182)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.864" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 182)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.946" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 182)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.980" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 182)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.919" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 182)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.941" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 182)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.915" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 182)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.939" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 182)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.855" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 182)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.893" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 182)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.945" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 182)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.947" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 208)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.870" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 208)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.982" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 208)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.932" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 208)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.896" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 208)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.934" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 208)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.988" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 208)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.882" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 208)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.899" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 208)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.954" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 208)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.869" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 208)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.885" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 208)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.935" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 208)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.978" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 208)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.989" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 208)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.939" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 208)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.909" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 208)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.945" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 208)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.976" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 208)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.866" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 234)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.974" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 234)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.946" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 234)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.886" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 234)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.856" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 234)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.892" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 234)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.919" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 234)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.942" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 234)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.927" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 234)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.933" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 234)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.978" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 234)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.942" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 234)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.947" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 234)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.967" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 234)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.905" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 234)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.925" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 234)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.964" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 234)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.886" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 234)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.865" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 234)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.961" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 260)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.909" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 260)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.901" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 260)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.920" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 260)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.954" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 260)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.877" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 260)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.872" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 260)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.916" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 260)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.957" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 260)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.865" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 260)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.922" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 260)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.961" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 260)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.925" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 260)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.936" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 260)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.907" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 260)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.986" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 260)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.917" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 260)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.855" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 260)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.896" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 260)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.933" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 286)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.960" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 286)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.938" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 286)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.962" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 286)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.862" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 286)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.897" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 286)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.902" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 286)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.968" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 286)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.892" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 286)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.869" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 286)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.963" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 286)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.864" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 286)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.885" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 286)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.910" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 286)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.983" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 286)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.956" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 286)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.862" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 286)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.942" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 286)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.884" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 286)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.938" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 312)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.977" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 312)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.880" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 312)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.985" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 312)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.947" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 312)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.973" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 312)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.926" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 312)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.977" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 312)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.905" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 312)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.924" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 312)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.879" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 312)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.889" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 312)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.982" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 312)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.895" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 312)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.910" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 312)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.969" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 312)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.919" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 312)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.891" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 312)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.971" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 312)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.936" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 338)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.972" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 338)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.860" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 338)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.934" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 338)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.974" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 338)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.926" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 338)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.932" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 338)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.887" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 338)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.898" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 338)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.893" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 338)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.960" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 338)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.872" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 338)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.904" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 338)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.862" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 338)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.957" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 338)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.952" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 338)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.922" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 338)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.888" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 338)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.923" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 338)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.976" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 364)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.967" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 364)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.901" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 364)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.853" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 364)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.910" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 364)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.975" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 364)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.895" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 364)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.866" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 364)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.970" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 364)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.893" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 364)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.954" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 364)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.949" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 364)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.866" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 364)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.935" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 364)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.927" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 364)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.905" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 364)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.876" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 364)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.939" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 364)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.987" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 364)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.851" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 390)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.864" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 390)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.981" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 390)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.918" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 390)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.908" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 390)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.918" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 390)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.915" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 390)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.934" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 390)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.964" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 390)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.946" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 390)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.873" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 390)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.873" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 390)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.972" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 390)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.983" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 390)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.951" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 390)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.924" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 390)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.914" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 390)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.881" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 390)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.937" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 390)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.931" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 416)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.869" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 416)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.959" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 416)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.919" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 416)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.888" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 416)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.979" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 416)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.954" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 416)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.935" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 416)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.919" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 416)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.962" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 416)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.951" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 416)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.895" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 416)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.853" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 416)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.896" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 416)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.946" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 416)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.866" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 416)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.884" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 416)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.921" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 416)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.876" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 416)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.906" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 442)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.981" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 442)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.977" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 442)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.931" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 442)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.966" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 442)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.949" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 442)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.851" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 442)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.914" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 442)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.966" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 442)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.851" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 442)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.893" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 442)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.907" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 442)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.905" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 442)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.865" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 442)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.870" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 442)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.858" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 442)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.872" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 442)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.933" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 442)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.936" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 442)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.975" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 468)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.939" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 468)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.932" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 468)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.952" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 468)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.987" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 468)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.858" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 468)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.871" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 468)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.876" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 468)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.936" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 468)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.963" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 468)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.982" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 468)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.951" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 468)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.964" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 468)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.918" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 468)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.872" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 468)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.910" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 468)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.918" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 468)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.866" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 468)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.919" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 468)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.939" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 494)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.983" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 494)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.885" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 494)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.853" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 494)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.886" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 494)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.916" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 494)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.959" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 494)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.924" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 494)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.943" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 494)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.871" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 494)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.904" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 494)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.961" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 494)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.948" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 494)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.850" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 494)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.862" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 494)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.888" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 494)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.958" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 494)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.988" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 494)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.884" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 494)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.969" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 520)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.953" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 520)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.933" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 520)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.939" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 520)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.888" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 520)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.981" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 520)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.905" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 520)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.850" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 520)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.941" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 520)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.941" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 520)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.893" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 520)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.961" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 520)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.952" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 520)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.977" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 520)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.944" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 520)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.921" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 520)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.866" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 520)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.932" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 520)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.982" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 520)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.952" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 546)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.945" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 546)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.890" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 546)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.955" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 546)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.869" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 546)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.941" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 546)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.913" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 546)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.956" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 546)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.875" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 546)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.945" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 546)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.911" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 546)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.921" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 546)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.852" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 546)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.980" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 546)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.952" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 546)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.917" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 546)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.987" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 546)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.861" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 546)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.972" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 546)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.971" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 572)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.888" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 572)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.856" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 572)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.978" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 572)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.907" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 572)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.925" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 572)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.962" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 572)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.889" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 572)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.909" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 572)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.922" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 572)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.931" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 572)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.884" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 572)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.865" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 572)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.954" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 572)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.885" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 572)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.856" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 572)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.986" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 572)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.883" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 572)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.934" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 572)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.854" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 598)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.965" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 598)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.982" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 598)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.956" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 598)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.990" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 598)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.859" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 598)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.911" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 598)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.929" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 598)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.959" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 598)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.975" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 598)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.956" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 598)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.982" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 598)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.971" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 598)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.870" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 598)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.893" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 598)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.865" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 598)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.956" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 598)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.855" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 598)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.970" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 598)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.900" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 624)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.890" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 624)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.857" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 624)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.890" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 624)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.877" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 624)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.919" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 624)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.880" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 624)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.900" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 624)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.981" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 624)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.895" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 624)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.862" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 624)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.853" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 624)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.905" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 624)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.879" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 624)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.986" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 624)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.910" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 624)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.966" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 624)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.984" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 624)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.935" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 624)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.883" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 650)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.867" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 650)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.852" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 650)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.985" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 650)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.960" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 650)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.963" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 650)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.851" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 650)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.980" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 650)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.871" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 650)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.981" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 650)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.947" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 650)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.964" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 650)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.857" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 650)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.951" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 650)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.973" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 650)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.889" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 650)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.873" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 650)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.867" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 650)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.987" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 650)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.900" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 676)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.945" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 676)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.853" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 676)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.856" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 676)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.965" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 676)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.954" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 676)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.960" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 676)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.956" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 676)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.932" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 676)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.979" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 676)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.855" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 676)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.936" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 676)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.971" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 676)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.963" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 676)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.927" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 676)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.916" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 676)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.931" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 676)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.962" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 676)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.874" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 676)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.891" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(0, 702)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.989" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(26, 702)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.924" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(52, 702)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.908" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(78, 702)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.956" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(104, 702)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.956" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(130, 702)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.960" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(156, 702)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.974" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(182, 702)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.905" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(208, 702)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.962" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(234, 702)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.853" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(260, 702)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.912" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(286, 702)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.931" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(312, 702)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.886" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(338, 702)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.985" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(364, 702)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.968" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(390, 702)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.887" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(416, 702)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.967" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(442, 702)">
+            <rect width="24" height="24" rx="2" fill="#544E44" opacity="0.892" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<g transform="translate(468, 702)">
+            <rect width="24" height="24" rx="2" fill="#3D382E" opacity="0.927" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-glaze)" />
+            <rect width="24" height="24" rx="2" fill="url(#tile-bevel)" />
+          </g>
+<rect width="480" height="274" fill="url(#wall-grad-taupe-night)" opacity="0.12" />
+    </svg>
+  

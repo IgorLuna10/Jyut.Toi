@@ -1,26 +1,20 @@
-# CANDLE
+# Jyut.Toi: Learn Cantonese
 
-CANDLE is a Cantonese language learning application. It displays vocabulary and phrases for daily practice.
+**Jyut.Toi** (粵台) is a metro-level Cantonese language learning application with a shared Rust core, native iOS/Android interfaces, and a web showcase.
 
 ## Features
 
-- **Content Rotation**: Updates words and phrases on a daily schedule, containing 445 words and 108 phrases.
-- **Challenges**: Provides text guessing tasks based on Jyutping spelling.
-- **Speech Synthesis**: Plays Cantonese audio using the Web Speech API.
-- **Progress Tracking**: Increments a counter for consecutive correct answers.
-- **Wiktionary Lookup**: Queries the Wiktionary API for definitions and Jyutping data, caching results in local storage.
+- **Metro-Themed Progression**: Distinct station-wall mosaic styling per level.
+- **Tone Discrimination Drills**: Interactive ear-training for the 6 Cantonese tones.
+- **Sentence Assembly**: Magnetic word and particle tiles for authentic Cantonese grammar.
+- **Spaced Repetition (SRS)**: On-device SM-2 memory retention engine.
+- **Speech Synthesis**: Native Cantonese audio playback.
+- **Honest Retention Tracking**: Genuine streak tracking without artificial score manipulation or forced losses.
 
-## Structure
+## Architecture
 
-- `public/dictionary.json`: Data file containing words and phrases.
-- `src/components/`: Layout, Dashboard, Countdown, and Challenge components.
-- `src/services/candle-api.js`: Logic for data retrieval, Wiktionary requests, and audio playback.
-
-## Tech Stack
-
-- React 18
-- Vite
-- Tailwind CSS
-- Web Speech API
-- Wiktionary API
-- localStorage
+- `core/`: Rust core library (dictionary, SM-2 SRS, tone engine, UniFFI scaffolding).
+- `ios/`: Native SwiftUI application with StoreKit 2 and AVFoundation.
+- `bindings/`: Generated Swift and Kotlin bindings.
+- `src/`: Web showcase and interactive simulator (React 18, Vite, Tailwind CSS).
+- `src/config/appConfig.js`: Single config constant controlling the application name.

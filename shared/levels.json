@@ -1,0 +1,2834 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "themeId": "red",
+      "stationChinese": "你好與拜拜",
+      "jyutping": "nei5 hou2 jyu5 baai1 baai3",
+      "title": "Hello & Goodbye",
+      "subtitle": "First Words & Daily Greetings",
+      "vocab": [
+        {
+          "chinese": "你好",
+          "jyutping": "nei5 hou2",
+          "tones": [
+            5,
+            2
+          ],
+          "english": "Hello",
+          "notes": "Literally \"You good\". The most essential greeting."
+        },
+        {
+          "chinese": "你",
+          "jyutping": "nei5",
+          "tones": [
+            5
+          ],
+          "english": "You",
+          "notes": "Pronounced with low rising Tone 5."
+        },
+        {
+          "chinese": "好",
+          "jyutping": "hou2",
+          "tones": [
+            2
+          ],
+          "english": "Good / Well",
+          "notes": "High rising Tone 2."
+        },
+        {
+          "chinese": "拜拜",
+          "jyutping": "baai1 baai3",
+          "tones": [
+            1,
+            3
+          ],
+          "english": "Bye-bye",
+          "notes": "Everyday casual goodbye borrowed from English."
+        },
+        {
+          "chinese": "早晨",
+          "jyutping": "zou2 san4",
+          "tones": [
+            2,
+            4
+          ],
+          "english": "Good morning",
+          "notes": "Warm morning greeting in Hong Kong."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "你",
+          "syllable": "nei5",
+          "correctTone": 5,
+          "name": "Low Rising (23)",
+          "meaning": "You",
+          "options": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "character": "好",
+          "syllable": "hou2",
+          "correctTone": 2,
+          "name": "High Rising (25)",
+          "meaning": "Good",
+          "options": [
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "character": "詩",
+          "syllable": "si1",
+          "correctTone": 1,
+          "name": "High Level (55)",
+          "meaning": "Poem",
+          "options": [
+            1,
+            4,
+            6
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "Hello, good morning!",
+        "jyutping": "nei5 hou2, zou2 san4!",
+        "target": [
+          "你好",
+          "早晨"
+        ],
+        "pool": [
+          "你好",
+          "早晨",
+          "拜拜",
+          "好"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "How do you say \"Hello\" in Cantonese?",
+          "options": [
+            "你好 (nei5 hou2)",
+            "早晨 (zou2 san4)",
+            "再見 (zoi3 gin3)"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "tone",
+          "question": "What tone is \"好\" (hou2 - good)?",
+          "audioText": "hou2",
+          "options": [
+            "Tone 2 (High Rising)",
+            "Tone 1 (High Level)",
+            "Tone 4 (Low Falling)"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "sentence",
+          "question": "Assemble: \"Hello!\"",
+          "target": [
+            "你好"
+          ],
+          "pool": [
+            "你好",
+            "拜拜",
+            "早晨"
+          ]
+        }
+      ],
+      "chineseTitle": "你好與拜拜",
+      "lineId": 1
+    },
+    {
+      "level": 2,
+      "themeId": "teal",
+      "stationChinese": "唔該與多謝",
+      "jyutping": "m4 goi1 jyu5 do1 ze6",
+      "title": "Thank You & Please",
+      "subtitle": "Everyday Hong Kong Courtesy",
+      "vocab": [
+        {
+          "chinese": "唔該",
+          "jyutping": "m4 goi1",
+          "tones": [
+            4,
+            1
+          ],
+          "english": "Please / Thank you (for service)",
+          "notes": "Use when someone serves you food or helps you."
+        },
+        {
+          "chinese": "多謝",
+          "jyutping": "do1 ze6",
+          "tones": [
+            1,
+            6
+          ],
+          "english": "Thank you (for gifts / compliments)",
+          "notes": "Use for presents, generous hospitality, or compliments."
+        },
+        {
+          "chinese": "借借",
+          "jyutping": "ze3 ze3",
+          "tones": [
+            3,
+            3
+          ],
+          "english": "Excuse me (let me pass)",
+          "notes": "Essential for moving through crowded MTR cars."
+        },
+        {
+          "chinese": "唔使",
+          "jyutping": "m4 sai2",
+          "tones": [
+            4,
+            2
+          ],
+          "english": "No need / You are welcome",
+          "notes": "Short for \"唔使客氣\" (no need to be polite)."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "唔",
+          "syllable": "m4",
+          "correctTone": 4,
+          "name": "Low Falling (21)",
+          "meaning": "Not / Negation",
+          "options": [
+            1,
+            4,
+            6
+          ]
+        },
+        {
+          "character": "該",
+          "syllable": "goi1",
+          "correctTone": 1,
+          "name": "High Level (55)",
+          "meaning": "Ought / Deserve",
+          "options": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "character": "多",
+          "syllable": "do1",
+          "correctTone": 1,
+          "name": "High Level (55)",
+          "meaning": "Many / Much",
+          "options": [
+            1,
+            4,
+            5
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "Excuse me, please let me pass.",
+        "jyutping": "m4 goi1, ze3 ze3.",
+        "target": [
+          "唔該",
+          "借借"
+        ],
+        "pool": [
+          "唔該",
+          "多謝",
+          "借借",
+          "唔使"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "A waiter serves your tea. What do you say?",
+          "options": [
+            "唔該 (m4 goi1)",
+            "多謝 (do1 ze6)",
+            "早晨 (zou2 san4)"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "vocab",
+          "question": "A friend gives you a birthday gift. What do you say?",
+          "options": [
+            "多謝 (do1 ze6)",
+            "唔該 (m4 goi1)",
+            "再見 (zoi3 gin3)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "唔該與多謝",
+      "lineId": 1
+    },
+    {
+      "level": 3,
+      "themeId": "blue",
+      "stationChinese": "數字一至五",
+      "jyutping": "jat1 zi3 ng5",
+      "title": "Numbers 1 to 5",
+      "subtitle": "Counting & Essential Quantities",
+      "vocab": [
+        {
+          "chinese": "一",
+          "jyutping": "jat1",
+          "tones": [
+            1
+          ],
+          "english": "One (1)",
+          "notes": "High entering Tone 1."
+        },
+        {
+          "chinese": "二",
+          "jyutping": "ji6",
+          "tones": [
+            6
+          ],
+          "english": "Two (2)",
+          "notes": "Low Level Tone 6."
+        },
+        {
+          "chinese": "三",
+          "jyutping": "saam1",
+          "tones": [
+            1
+          ],
+          "english": "Three (3)",
+          "notes": "High Level Tone 1."
+        },
+        {
+          "chinese": "四",
+          "jyutping": "sei3",
+          "tones": [
+            3
+          ],
+          "english": "Four (4)",
+          "notes": "Mid Level Tone 3."
+        },
+        {
+          "chinese": "五",
+          "jyutping": "ng5",
+          "tones": [
+            5
+          ],
+          "english": "Five (5)",
+          "notes": "Nasal sound \"ng\" with low rising Tone 5."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "一",
+          "syllable": "jat1",
+          "correctTone": 1,
+          "name": "High Entering (55)",
+          "meaning": "One",
+          "options": [
+            1,
+            3,
+            6
+          ]
+        },
+        {
+          "character": "二",
+          "syllable": "ji6",
+          "correctTone": 6,
+          "name": "Low Level (22)",
+          "meaning": "Two",
+          "options": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "character": "五",
+          "syllable": "ng5",
+          "correctTone": 5,
+          "name": "Low Rising (23)",
+          "meaning": "Five",
+          "options": [
+            1,
+            3,
+            5
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "One, two, three, go!",
+        "jyutping": "jat1, ji6, saam1!",
+        "target": [
+          "一",
+          "二",
+          "三"
+        ],
+        "pool": [
+          "一",
+          "二",
+          "三",
+          "四",
+          "五"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "What number is \"三\" (saam1)?",
+          "options": [
+            "Three (3)",
+            "Two (2)",
+            "Four (4)"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "tone",
+          "question": "Which tone is \"二\" (ji6 - two)?",
+          "audioText": "ji6",
+          "options": [
+            "Tone 6 (Low Level)",
+            "Tone 2 (High Rising)",
+            "Tone 1 (High Level)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "數字一至五",
+      "lineId": 1
+    },
+    {
+      "level": 4,
+      "themeId": "green",
+      "stationChinese": "六至十與係唔係",
+      "jyutping": "luk6 zi3 sap6 jyu5 hai6 m4 hai6",
+      "title": "Numbers 6-10 & Yes/No",
+      "subtitle": "Counting Higher & Affirmation",
+      "vocab": [
+        {
+          "chinese": "六",
+          "jyutping": "luk6",
+          "tones": [
+            6
+          ],
+          "english": "Six (6)",
+          "notes": "Low Level Tone 6."
+        },
+        {
+          "chinese": "七",
+          "jyutping": "cat1",
+          "tones": [
+            1
+          ],
+          "english": "Seven (7)",
+          "notes": "High Entering Tone 1."
+        },
+        {
+          "chinese": "八",
+          "jyutping": "baat3",
+          "tones": [
+            3
+          ],
+          "english": "Eight (8)",
+          "notes": "Mid Entering Tone 3. Symbol of prosperity."
+        },
+        {
+          "chinese": "九",
+          "jyutping": "gau2",
+          "tones": [
+            2
+          ],
+          "english": "Nine (9)",
+          "notes": "High Rising Tone 2."
+        },
+        {
+          "chinese": "十",
+          "jyutping": "sap6",
+          "tones": [
+            6
+          ],
+          "english": "Ten (10)",
+          "notes": "Low Entering Tone 6."
+        },
+        {
+          "chinese": "係",
+          "jyutping": "hai6",
+          "tones": [
+            6
+          ],
+          "english": "Yes / To be (is/am/are)",
+          "notes": "Everyday affirmation in Cantonese."
+        },
+        {
+          "chinese": "唔係",
+          "jyutping": "m4 hai6",
+          "tones": [
+            4,
+            6
+          ],
+          "english": "No / Is not",
+          "notes": "Negation formula."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "八",
+          "syllable": "baat3",
+          "correctTone": 3,
+          "name": "Mid Entering (33)",
+          "meaning": "Eight",
+          "options": [
+            1,
+            3,
+            6
+          ]
+        },
+        {
+          "character": "九",
+          "syllable": "gau2",
+          "correctTone": 2,
+          "name": "High Rising (25)",
+          "meaning": "Nine",
+          "options": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "character": "係",
+          "syllable": "hai6",
+          "correctTone": 6,
+          "name": "Low Level (22)",
+          "meaning": "Yes / To be",
+          "options": [
+            2,
+            4,
+            6
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "Yes, that is eight dollars.",
+        "jyutping": "hai6, baat3 man1.",
+        "target": [
+          "係",
+          "八"
+        ],
+        "pool": [
+          "係",
+          "唔係",
+          "八",
+          "十",
+          "六"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "How do you say \"Yes\" in Cantonese?",
+          "options": [
+            "係 (hai6)",
+            "唔係 (m4 hai6)",
+            "唔該 (m4 goi1)"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "vocab",
+          "question": "What is the Cantonese number for 8 (prosperity)?",
+          "options": [
+            "八 (baat3)",
+            "七 (cat1)",
+            "九 (gau2)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "六至十與係唔係",
+      "lineId": 1
+    },
+    {
+      "level": 5,
+      "themeId": "red",
+      "stationChinese": "凍檸茶與茶水",
+      "jyutping": "dung3 ning4 caa4 jyu5 caa4 seoi2",
+      "title": "Tea & Drinks",
+      "subtitle": "Ordering Cha Chaan Teng Drinks",
+      "vocab": [
+        {
+          "chinese": "茶",
+          "jyutping": "caa4",
+          "tones": [
+            4
+          ],
+          "english": "Tea",
+          "notes": "Foundational Cantonese beverage."
+        },
+        {
+          "chinese": "水",
+          "jyutping": "seoi2",
+          "tones": [
+            2
+          ],
+          "english": "Water",
+          "notes": "Also slang for money (\"水\")."
+        },
+        {
+          "chinese": "凍檸茶",
+          "jyutping": "dung3 ning4 caa4",
+          "tones": [
+            3,
+            4,
+            4
+          ],
+          "english": "Iced lemon tea",
+          "notes": "Hong Kong cafe staple with fresh lemon slices."
+        },
+        {
+          "chinese": "奶茶",
+          "jyutping": "naai5 caa4",
+          "tones": [
+            5,
+            4
+          ],
+          "english": "Silk stocking milk tea",
+          "notes": "Rich black tea strained through cloth and evaporated milk."
+        },
+        {
+          "chinese": "一杯",
+          "jyutping": "jat1 bui1",
+          "tones": [
+            1,
+            1
+          ],
+          "english": "One cup / glass",
+          "notes": "Measure word for drinks."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "茶",
+          "syllable": "caa4",
+          "correctTone": 4,
+          "name": "Low Falling (21)",
+          "meaning": "Tea",
+          "options": [
+            1,
+            4,
+            6
+          ]
+        },
+        {
+          "character": "水",
+          "syllable": "seoi2",
+          "correctTone": 2,
+          "name": "High Rising (25)",
+          "meaning": "Water",
+          "options": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "character": "凍",
+          "syllable": "dung3",
+          "correctTone": 3,
+          "name": "Mid Level (33)",
+          "meaning": "Cold / Iced",
+          "options": [
+            1,
+            3,
+            6
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "Please, one cup of iced lemon tea.",
+        "jyutping": "m4 goi1, jat1 bui1 dung3 ning4 caa4.",
+        "target": [
+          "唔該",
+          "一杯",
+          "凍檸茶"
+        ],
+        "pool": [
+          "唔該",
+          "一杯",
+          "凍檸茶",
+          "奶茶",
+          "多謝"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "How do you say \"Iced Lemon Tea\" in Cantonese?",
+          "options": [
+            "凍檸茶 (dung3 ning4 caa4)",
+            "熱奶茶 (jit6 naai5 caa4)",
+            "茶 (caa4)"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "sentence",
+          "question": "Arrange: \"Please, one cup of tea.\"",
+          "target": [
+            "唔該",
+            "一杯",
+            "茶"
+          ],
+          "pool": [
+            "唔該",
+            "一杯",
+            "茶",
+            "水"
+          ]
+        }
+      ],
+      "chineseTitle": "凍檸茶與茶水",
+      "lineId": 1
+    },
+    {
+      "level": 6,
+      "themeId": "orange",
+      "stationChinese": "幾多錢與蚊",
+      "jyutping": "gei2 do1 cin2 jyu5 man1",
+      "title": "Prices & Dollars",
+      "subtitle": "Asking Prices & Hong Kong Dollars",
+      "vocab": [
+        {
+          "chinese": "幾多錢",
+          "jyutping": "gei2 do1 cin2",
+          "tones": [
+            2,
+            1,
+            2
+          ],
+          "english": "How much money?",
+          "notes": "Standard question for checking price."
+        },
+        {
+          "chinese": "蚊",
+          "jyutping": "man1",
+          "tones": [
+            1
+          ],
+          "english": "Bucks / HKD Dollars",
+          "notes": "Everyday spoken Cantonese counter for dollars (元)."
+        },
+        {
+          "chinese": "買",
+          "jyutping": "maai5",
+          "tones": [
+            5
+          ],
+          "english": "To buy",
+          "notes": "Tone 5 (Low Rising)."
+        },
+        {
+          "chinese": "賣",
+          "jyutping": "maai6",
+          "tones": [
+            6
+          ],
+          "english": "To sell",
+          "notes": "Tone 6 (Low Level)."
+        },
+        {
+          "chinese": "呢個",
+          "jyutping": "ni1 go3",
+          "tones": [
+            1,
+            3
+          ],
+          "english": "This one",
+          "notes": "Demonstrative pronoun."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "買",
+          "syllable": "maai5",
+          "correctTone": 5,
+          "name": "Low Rising (23)",
+          "meaning": "To buy",
+          "options": [
+            5,
+            6
+          ]
+        },
+        {
+          "character": "賣",
+          "syllable": "maai6",
+          "correctTone": 6,
+          "name": "Low Level (22)",
+          "meaning": "To sell",
+          "options": [
+            5,
+            6
+          ]
+        },
+        {
+          "character": "錢",
+          "syllable": "cin2",
+          "correctTone": 2,
+          "name": "High Rising (25)",
+          "meaning": "Money",
+          "options": [
+            1,
+            2,
+            4
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "How much is this one?",
+        "jyutping": "ni1 go3 gei2 do1 cin2?",
+        "target": [
+          "呢個",
+          "幾多錢"
+        ],
+        "pool": [
+          "呢個",
+          "幾多錢",
+          "買",
+          "十蚊"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "How do you ask \"How much is it?\" in Hong Kong?",
+          "options": [
+            "幾多錢 (gei2 do1 cin2)",
+            "邊度 (bin1 dou6)",
+            "咩事 (me1 si6)"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "tone",
+          "question": "Which tone means \"to buy\" (買)?",
+          "audioText": "maai5",
+          "options": [
+            "Tone 5 (Low Rising)",
+            "Tone 6 (Low Level)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "幾多錢與蚊",
+      "lineId": 1
+    },
+    {
+      "level": 7,
+      "themeId": "purple",
+      "stationChinese": "喺邊度與出口",
+      "jyutping": "hai2 bin1 dou6 jyu5 ceot1 hau2",
+      "title": "Where is It?",
+      "subtitle": "Asking Directions & Navigation",
+      "vocab": [
+        {
+          "chinese": "喺邊度",
+          "jyutping": "hai2 bin1 dou6",
+          "tones": [
+            2,
+            1,
+            6
+          ],
+          "english": "Where is it?",
+          "notes": "Essential for finding stations and restrooms."
+        },
+        {
+          "chinese": "地鐵站",
+          "jyutping": "dei6 tit3 zaam6",
+          "tones": [
+            6,
+            3,
+            6
+          ],
+          "english": "MTR Station",
+          "notes": "Subway station."
+        },
+        {
+          "chinese": "出口",
+          "jyutping": "ceot1 hau2",
+          "tones": [
+            1,
+            2
+          ],
+          "english": "Exit",
+          "notes": "Station exit letters (A, B, C...)."
+        },
+        {
+          "chinese": "前面",
+          "jyutping": "cin4 min6",
+          "tones": [
+            4,
+            6
+          ],
+          "english": "In front / Straight ahead",
+          "notes": "Directional phrase."
+        },
+        {
+          "chinese": "請問",
+          "jyutping": "cing2 man6",
+          "tones": [
+            2,
+            6
+          ],
+          "english": "May I ask / Excuse me",
+          "notes": "Polite conversation starter."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "邊",
+          "syllable": "bin1",
+          "correctTone": 1,
+          "name": "High Level (55)",
+          "meaning": "Which / Where",
+          "options": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "character": "度",
+          "syllable": "dou6",
+          "correctTone": 6,
+          "name": "Low Level (22)",
+          "meaning": "Place / Degree",
+          "options": [
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "character": "站",
+          "syllable": "zaam6",
+          "correctTone": 6,
+          "name": "Low Level (22)",
+          "meaning": "Station / Stop",
+          "options": [
+            2,
+            4,
+            6
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "Excuse me, where is the MTR station?",
+        "jyutping": "cing2 man6, dei6 tit3 zaam6 hai2 bin1 dou6?",
+        "target": [
+          "請問",
+          "地鐵站",
+          "喺邊度"
+        ],
+        "pool": [
+          "請問",
+          "地鐵站",
+          "喺邊度",
+          "前面",
+          "出口"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "How do you ask \"Where is...?\" in Cantonese?",
+          "options": [
+            "喺邊度 (hai2 bin1 dou6)",
+            "幾多錢 (gei2 do1 cin2)",
+            "係唔係 (hai6 m4 hai6)"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "sentence",
+          "question": "Arrange: \"Where is the exit?\"",
+          "target": [
+            "出口",
+            "喺邊度"
+          ],
+          "pool": [
+            "出口",
+            "喺邊度",
+            "前面",
+            "請問"
+          ]
+        }
+      ],
+      "chineseTitle": "喺邊度與出口",
+      "lineId": 1
+    },
+    {
+      "level": 8,
+      "themeId": "green",
+      "stationChinese": "街市買嘢與平啲",
+      "jyutping": "gaai1 si5 maai5 je5 jyu5 peng4 di1",
+      "title": "Market Bargaining",
+      "subtitle": "Friendly Haggling & Requests",
+      "vocab": [
+        {
+          "chinese": "我要",
+          "jyutping": "ngo5 jiu3",
+          "tones": [
+            5,
+            3
+          ],
+          "english": "I want",
+          "notes": "Standard selection formula."
+        },
+        {
+          "chinese": "平啲",
+          "jyutping": "peng4 di1",
+          "tones": [
+            4,
+            1
+          ],
+          "english": "A bit cheaper",
+          "notes": "The cornerstone of Hong Kong market bargaining."
+        },
+        {
+          "chinese": "得唔得",
+          "jyutping": "dak1 m4 dak1",
+          "tones": [
+            1,
+            4,
+            1
+          ],
+          "english": "Is that okay? / Can you?",
+          "notes": "Asking for agreement or concession."
+        },
+        {
+          "chinese": "好靚",
+          "jyutping": "hou2 leng3",
+          "tones": [
+            2,
+            3
+          ],
+          "english": "Very pretty / high quality",
+          "notes": "Complimenting merchandise."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "平",
+          "syllable": "peng4",
+          "correctTone": 4,
+          "name": "Low Falling (21)",
+          "meaning": "Cheap",
+          "options": [
+            1,
+            4,
+            6
+          ]
+        },
+        {
+          "character": "靚",
+          "syllable": "leng3",
+          "correctTone": 3,
+          "name": "Mid Level (33)",
+          "meaning": "Pretty / Good",
+          "options": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "character": "得",
+          "syllable": "dak1",
+          "correctTone": 1,
+          "name": "High Entering (55)",
+          "meaning": "Can / OK",
+          "options": [
+            1,
+            3,
+            6
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "I want this one, make it a bit cheaper, okay?",
+        "jyutping": "ngo5 jiu3 ni1 go3, peng4 di1 dak1 m4 dak1?",
+        "target": [
+          "我要",
+          "呢個",
+          "平啲",
+          "得唔得"
+        ],
+        "pool": [
+          "我要",
+          "呢個",
+          "平啲",
+          "得唔得",
+          "多謝"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "How do you ask for a lower price politely in a street stall?",
+          "options": [
+            "平啲得唔得 (peng4 di1 dak1 m4 dak1)",
+            "我要呢個 (ngo5 jiu3 ni1 go3)",
+            "多謝晒 (do1 ze6 saai3)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "街市買嘢與平啲",
+      "lineId": 1
+    },
+    {
+      "level": 9,
+      "themeId": "yellow",
+      "stationChinese": "今日與聽日",
+      "jyutping": "gam1 jat6 jyu5 ting1 jat6",
+      "title": "Today & Tomorrow",
+      "subtitle": "Calendar & Time Words",
+      "vocab": [
+        {
+          "chinese": "今日",
+          "jyutping": "gam1 jat6",
+          "tones": [
+            1,
+            6
+          ],
+          "english": "Today",
+          "notes": "Current day."
+        },
+        {
+          "chinese": "聽日",
+          "jyutping": "ting1 jat6",
+          "tones": [
+            1,
+            6
+          ],
+          "english": "Tomorrow",
+          "notes": "Next day."
+        },
+        {
+          "chinese": "琴日",
+          "jyutping": "kam4 jat6",
+          "tones": [
+            4,
+            6
+          ],
+          "english": "Yesterday",
+          "notes": "Previous day."
+        },
+        {
+          "chinese": "幾時",
+          "jyutping": "gei2 si4",
+          "tones": [
+            2,
+            4
+          ],
+          "english": "When / What time?",
+          "notes": "Temporal question."
+        },
+        {
+          "chinese": "點鐘",
+          "jyutping": "dim2 zung1",
+          "tones": [
+            2,
+            1
+          ],
+          "english": "O'clock (Hour)",
+          "notes": "Time marker (e.g. 兩點鐘 = 2 o'clock)."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "今",
+          "syllable": "gam1",
+          "correctTone": 1,
+          "name": "High Level (55)",
+          "meaning": "Now / Present",
+          "options": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "character": "時",
+          "syllable": "si4",
+          "correctTone": 4,
+          "name": "Low Falling (21)",
+          "meaning": "Time",
+          "options": [
+            1,
+            4,
+            6
+          ]
+        },
+        {
+          "character": "點",
+          "syllable": "dim2",
+          "correctTone": 2,
+          "name": "High Rising (25)",
+          "meaning": "O'clock / Point",
+          "options": [
+            2,
+            3,
+            5
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "When are you coming today?",
+        "jyutping": "gam1 jat6 gei2 si4 lai4?",
+        "target": [
+          "今日",
+          "幾時"
+        ],
+        "pool": [
+          "今日",
+          "聽日",
+          "幾時",
+          "琴日"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "What does \"聽日\" (ting1 jat6) mean?",
+          "options": [
+            "Tomorrow",
+            "Today",
+            "Yesterday"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "今日與聽日",
+      "lineId": 2
+    },
+    {
+      "level": 10,
+      "themeId": "teal",
+      "stationChinese": "多士與太陽蛋",
+      "jyutping": "do1 si2 jyu5 taai3 joeng4 daan2",
+      "title": "Breakfast Sets",
+      "subtitle": "Classic Diner Breakfasts",
+      "vocab": [
+        {
+          "chinese": "A餐",
+          "jyutping": "ei1 caan1",
+          "tones": [
+            1,
+            1
+          ],
+          "english": "Set Meal A",
+          "notes": "Standard breakfast set."
+        },
+        {
+          "chinese": "多士",
+          "jyutping": "do1 si2",
+          "tones": [
+            1,
+            2
+          ],
+          "english": "Toast",
+          "notes": "Loanword from English \"toast\"."
+        },
+        {
+          "chinese": "太陽蛋",
+          "jyutping": "taai3 joeng4 daan2",
+          "tones": [
+            3,
+            4,
+            2
+          ],
+          "english": "Sunny-side-up egg",
+          "notes": "Fried egg with runny yolk."
+        },
+        {
+          "chinese": "公仔麵",
+          "jyutping": "gung1 zai2 min6",
+          "tones": [
+            1,
+            2,
+            6
+          ],
+          "english": "Instant noodles",
+          "notes": "Named after Doll Brand noodles."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "蛋",
+          "syllable": "daan2",
+          "correctTone": 2,
+          "name": "High Rising (25)",
+          "meaning": "Egg",
+          "options": [
+            1,
+            2,
+            6
+          ]
+        },
+        {
+          "character": "麵",
+          "syllable": "min6",
+          "correctTone": 6,
+          "name": "Low Level (22)",
+          "meaning": "Noodles",
+          "options": [
+            2,
+            4,
+            6
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "I want Set A with toast and fried egg.",
+        "jyutping": "ngo5 jiu3 A caan1, do1 si2 taai3 joeng4 daan2.",
+        "target": [
+          "我要",
+          "A餐",
+          "多士",
+          "太陽蛋"
+        ],
+        "pool": [
+          "我要",
+          "A餐",
+          "多士",
+          "太陽蛋",
+          "凍檸茶"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "What is \"多士\" (do1 si2)?",
+          "options": [
+            "Toast",
+            "Noodles",
+            "Milk tea"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "多士與太陽蛋",
+      "lineId": 2
+    },
+    {
+      "level": 11,
+      "themeId": "purple",
+      "stationChinese": "大細與啱啱好",
+      "jyutping": "daai6 sai3 jyu5 ngaam1 ngaam1 hou2",
+      "title": "Big & Small",
+      "subtitle": "Sizes & Comparisons",
+      "vocab": [
+        {
+          "chinese": "大",
+          "jyutping": "daai6",
+          "tones": [
+            6
+          ],
+          "english": "Big / Large",
+          "notes": "Large size."
+        },
+        {
+          "chinese": "細",
+          "jyutping": "sai3",
+          "tones": [
+            3
+          ],
+          "english": "Small",
+          "notes": "Small size."
+        },
+        {
+          "chinese": "啱啱好",
+          "jyutping": "ngaam1 ngaam1 hou2",
+          "tones": [
+            1,
+            1,
+            2
+          ],
+          "english": "Just right / Perfect fit",
+          "notes": "Colloquial satisfaction."
+        },
+        {
+          "chinese": "試下",
+          "jyutping": "si3 haa5",
+          "tones": [
+            3,
+            5
+          ],
+          "english": "Try it on",
+          "notes": "Verbal tentative particle."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "大",
+          "syllable": "daai6",
+          "correctTone": 6,
+          "name": "Low Level (22)",
+          "meaning": "Big",
+          "options": [
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "character": "細",
+          "syllable": "sai3",
+          "correctTone": 3,
+          "name": "Mid Level (33)",
+          "meaning": "Small",
+          "options": [
+            1,
+            3,
+            5
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "This size is just right, I want to try it.",
+        "jyutping": "ni1 go3 ngaam1 ngaam1 hou2, ngo5 soeng2 si3 haa5.",
+        "target": [
+          "呢個",
+          "啱啱好",
+          "試下"
+        ],
+        "pool": [
+          "呢個",
+          "啱啱好",
+          "試下",
+          "大",
+          "細"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "How do you say \"Small\" in Cantonese?",
+          "options": [
+            "細 (sai3)",
+            "大 (daai6)",
+            "平 (peng4)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "大細與啱啱好",
+      "lineId": 2
+    },
+    {
+      "level": 12,
+      "themeId": "orange",
+      "stationChinese": "六聲聲調實戰",
+      "jyutping": "luk6 seng1 sat6 zin3",
+      "title": "6 Tones in Action",
+      "subtitle": "Hearing & Pronouncing the 6 Tones",
+      "vocab": [
+        {
+          "chinese": "詩",
+          "jyutping": "si1",
+          "tones": [
+            1
+          ],
+          "english": "Poem (Tone 1)",
+          "notes": "High level 55."
+        },
+        {
+          "chinese": "史",
+          "jyutping": "si2",
+          "tones": [
+            2
+          ],
+          "english": "History (Tone 2)",
+          "notes": "High rising 25."
+        },
+        {
+          "chinese": "試",
+          "jyutping": "si3",
+          "tones": [
+            3
+          ],
+          "english": "Try (Tone 3)",
+          "notes": "Mid level 33."
+        },
+        {
+          "chinese": "時",
+          "jyutping": "si4",
+          "tones": [
+            4
+          ],
+          "english": "Time (Tone 4)",
+          "notes": "Low falling 21."
+        },
+        {
+          "chinese": "市",
+          "jyutping": "si5",
+          "tones": [
+            5
+          ],
+          "english": "Market (Tone 5)",
+          "notes": "Low rising 23."
+        },
+        {
+          "chinese": "事",
+          "jyutping": "si6",
+          "tones": [
+            6
+          ],
+          "english": "Matter (Tone 6)",
+          "notes": "Low level 22."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "詩",
+          "syllable": "si1",
+          "correctTone": 1,
+          "name": "Tone 1 (55)",
+          "meaning": "Poem",
+          "options": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "character": "市",
+          "syllable": "si5",
+          "correctTone": 5,
+          "name": "Tone 5 (23)",
+          "meaning": "Market",
+          "options": [
+            2,
+            5,
+            6
+          ]
+        },
+        {
+          "character": "事",
+          "syllable": "si6",
+          "correctTone": 6,
+          "name": "Tone 6 (22)",
+          "meaning": "Matter",
+          "options": [
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "Try going to the market this time.",
+        "jyutping": "gam1 ci3 si3 heoi3 si5 coeng4.",
+        "target": [
+          "試",
+          "去",
+          "市"
+        ],
+        "pool": [
+          "試",
+          "去",
+          "市",
+          "事",
+          "詩"
+        ]
+      },
+      "exam": [
+        {
+          "type": "tone",
+          "question": "What tone is \"市\" (si5 - market)?",
+          "audioText": "si5",
+          "options": [
+            "Tone 5 (Low Rising)",
+            "Tone 6 (Low Level)",
+            "Tone 2 (High Rising)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "六聲聲調實戰",
+      "lineId": 2
+    },
+    {
+      "level": 13,
+      "themeId": "green",
+      "stationChinese": "咗與緊",
+      "jyutping": "zo2 jyu5 gan2",
+      "title": "Done & Doing",
+      "subtitle": "Completed vs Continuous Actions",
+      "vocab": [
+        {
+          "chinese": "食咗",
+          "jyutping": "sik6 zo2",
+          "tones": [
+            6,
+            2
+          ],
+          "english": "Already ate",
+          "notes": "Action is finished."
+        },
+        {
+          "chinese": "食緊",
+          "jyutping": "sik6 gan2",
+          "tones": [
+            6,
+            2
+          ],
+          "english": "Currently eating",
+          "notes": "Action in progress."
+        },
+        {
+          "chinese": "去咗",
+          "jyutping": "heoi3 zo2",
+          "tones": [
+            3,
+            2
+          ],
+          "english": "Already went",
+          "notes": "Departed."
+        },
+        {
+          "chinese": "做緊",
+          "jyutping": "zou6 gan2",
+          "tones": [
+            6,
+            2
+          ],
+          "english": "Currently doing",
+          "notes": "Working on it."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "咗",
+          "syllable": "zo2",
+          "correctTone": 2,
+          "name": "High Rising (25)",
+          "meaning": "Completed aspect",
+          "options": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "character": "緊",
+          "syllable": "gan2",
+          "correctTone": 2,
+          "name": "High Rising (25)",
+          "meaning": "Continuous aspect",
+          "options": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "I have already eaten, I am drinking tea now.",
+        "jyutping": "ngo5 sik6 zo2, jam2 gan2 caa4.",
+        "target": [
+          "我",
+          "食咗",
+          "飲緊",
+          "茶"
+        ],
+        "pool": [
+          "我",
+          "食咗",
+          "飲緊",
+          "茶",
+          "去咗"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "Which particle indicates an action is ALREADY completed?",
+          "options": [
+            "咗 (zo2)",
+            "緊 (gan2)",
+            "過 (gwo3)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "咗與緊",
+      "lineId": 2
+    },
+    {
+      "level": 14,
+      "themeId": "orange",
+      "stationChinese": "叮叮與有落",
+      "jyutping": "ding1 ding1 jyu5 jau5 lok6",
+      "title": "Tram & Shouting Stops",
+      "subtitle": "Ding Ding Tram & Minibus Calling",
+      "vocab": [
+        {
+          "chinese": "叮叮車",
+          "jyutping": "ding1 ding1 ce1",
+          "tones": [
+            1,
+            1,
+            1
+          ],
+          "english": "Double-decker tram",
+          "notes": "Heritage HK Island tram."
+        },
+        {
+          "chinese": "有落",
+          "jyutping": "jau5 lok6",
+          "tones": [
+            5,
+            6
+          ],
+          "english": "Getting off / Drop-off!",
+          "notes": "Essential call for buses and minibuses."
+        },
+        {
+          "chinese": "司機",
+          "jyutping": "si1 gei1",
+          "tones": [
+            1,
+            1
+          ],
+          "english": "Driver",
+          "notes": "Addressing transit operators."
+        },
+        {
+          "chinese": "前面",
+          "jyutping": "cin4 min6",
+          "tones": [
+            4,
+            6
+          ],
+          "english": "Ahead / Next intersection",
+          "notes": "Locational call."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "叮",
+          "syllable": "ding1",
+          "correctTone": 1,
+          "name": "High Level (55)",
+          "meaning": "Ding bell sound",
+          "options": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "character": "落",
+          "syllable": "lok6",
+          "correctTone": 6,
+          "name": "Low Entering (22)",
+          "meaning": "To alight / drop-off",
+          "options": [
+            1,
+            4,
+            6
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "Driver, next stop drop-off please!",
+        "jyutping": "si1 gei1, cin4 min6 jau5 lok6, m4 goi1!",
+        "target": [
+          "司機",
+          "前面",
+          "有落",
+          "唔該"
+        ],
+        "pool": [
+          "司機",
+          "前面",
+          "有落",
+          "唔該",
+          "多謝"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "What do you shout on a minibus to alight?",
+          "options": [
+            "有落，唔該！ (jau5 lok6, m4 goi1!)",
+            "你好！ (nei5 hou2!)",
+            "幾多錢？ (gei2 do1 cin2?)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "叮叮與有落",
+      "lineId": 2
+    },
+    {
+      "level": 15,
+      "themeId": "blue",
+      "stationChinese": "返工與屋企",
+      "jyutping": "faan1 gung1 jyu5 uk1 kei2",
+      "title": "Work & Home",
+      "subtitle": "Daily Commute & Routines",
+      "vocab": [
+        {
+          "chinese": "返工",
+          "jyutping": "faan1 gung1",
+          "tones": [
+            1,
+            1
+          ],
+          "english": "Go to work",
+          "notes": "Universal Hong Kong daily grind."
+        },
+        {
+          "chinese": "放工",
+          "jyutping": "fong3 gung1",
+          "tones": [
+            3,
+            1
+          ],
+          "english": "Finish work (clock out)",
+          "notes": "End of shift."
+        },
+        {
+          "chinese": "屋企",
+          "jyutping": "uk1 kei2",
+          "tones": [
+            1,
+            2
+          ],
+          "english": "Home",
+          "notes": "Colloquial term for home."
+        },
+        {
+          "chinese": "瞓覺",
+          "jyutping": "fan3 gaau3",
+          "tones": [
+            3,
+            3
+          ],
+          "english": "Sleep",
+          "notes": "Nighttime rest."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "工",
+          "syllable": "gung1",
+          "correctTone": 1,
+          "name": "High Level (55)",
+          "meaning": "Work",
+          "options": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "character": "屋",
+          "syllable": "uk1",
+          "correctTone": 1,
+          "name": "High Entering (55)",
+          "meaning": "House",
+          "options": [
+            1,
+            3,
+            6
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "Finished work, going home now.",
+        "jyutping": "fong3 gung1, heoi3 uk1 kei2.",
+        "target": [
+          "放工",
+          "返",
+          "屋企"
+        ],
+        "pool": [
+          "放工",
+          "返",
+          "屋企",
+          "返工",
+          "瞓覺"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "How do you say \"Home\" in spoken Cantonese?",
+          "options": [
+            "屋企 (uk1 kei2)",
+            "返工 (faan1 gung1)",
+            "學校 (hok6 haau6)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "返工與屋企",
+      "lineId": 2
+    },
+    {
+      "level": 16,
+      "themeId": "red",
+      "stationChinese": "便利店與八達通",
+      "jyutping": "bin6 lei6 dim3 jyu5 baat3 daat6 tung1",
+      "title": "Convenience & Octopus",
+      "subtitle": "Tapping Smartcards & Errands",
+      "vocab": [
+        {
+          "chinese": "八達通",
+          "jyutping": "baat3 daat6 tung1",
+          "tones": [
+            3,
+            6,
+            1
+          ],
+          "english": "Octopus Card",
+          "notes": "Everyday contactless transit card."
+        },
+        {
+          "chinese": "嘟",
+          "jyutping": "doot1",
+          "tones": [
+            1
+          ],
+          "english": "Tap / Beep (Octopus sound)",
+          "notes": "Onomatopoeic verb for contactless tapping."
+        },
+        {
+          "chinese": "膠袋",
+          "jyutping": "gaau1 doi2",
+          "tones": [
+            1,
+            2
+          ],
+          "english": "Plastic bag",
+          "notes": "$1 charge in HK."
+        },
+        {
+          "chinese": "印單",
+          "jyutping": "jan3 daan1",
+          "tones": [
+            3,
+            1
+          ],
+          "english": "Print receipt",
+          "notes": "Paper receipt."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "袋",
+          "syllable": "doi2",
+          "correctTone": 2,
+          "name": "High Rising (25)",
+          "meaning": "Bag",
+          "options": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "character": "單",
+          "syllable": "daan1",
+          "correctTone": 1,
+          "name": "High Level (55)",
+          "meaning": "Receipt / Bill",
+          "options": [
+            1,
+            3,
+            5
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "I will tap Octopus, no plastic bag needed.",
+        "jyutping": "ngo5 doot1 baat3 daat6 tung1, m4 sai2 gaau1 doi2.",
+        "target": [
+          "我",
+          "嘟",
+          "八達通",
+          "唔使",
+          "膠袋"
+        ],
+        "pool": [
+          "我",
+          "嘟",
+          "八達通",
+          "唔使",
+          "膠袋",
+          "印單"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "What is the Cantonese verb for tapping your Octopus card?",
+          "options": [
+            "嘟 (doot1)",
+            "買 (maai5)",
+            "去 (heoi3)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "便利店與八達通",
+      "lineId": 2
+    },
+    {
+      "level": 17,
+      "themeId": "blue",
+      "stationChinese": "屋企人與朋友",
+      "jyutping": "uk1 kei2 jan4 jyu5 pang4 jau5",
+      "title": "Family & Friends",
+      "subtitle": "Introducing People",
+      "vocab": [
+        {
+          "chinese": "爸爸",
+          "jyutping": "baa4 ba1",
+          "tones": [
+            4,
+            1
+          ],
+          "english": "Father / Dad",
+          "notes": "Family term."
+        },
+        {
+          "chinese": "媽媽",
+          "jyutping": "maa4 maa1",
+          "tones": [
+            4,
+            1
+          ],
+          "english": "Mother / Mom",
+          "notes": "Family term."
+        },
+        {
+          "chinese": "朋友",
+          "jyutping": "pang4 jau5",
+          "tones": [
+            4,
+            5
+          ],
+          "english": "Friend",
+          "notes": "Social companion."
+        },
+        {
+          "chinese": "邊個",
+          "jyutping": "bin1 go3",
+          "tones": [
+            1,
+            3
+          ],
+          "english": "Who / Which person?",
+          "notes": "Interrogative pronoun."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "友",
+          "syllable": "jau5",
+          "correctTone": 5,
+          "name": "Low Rising (23)",
+          "meaning": "Friend",
+          "options": [
+            2,
+            5,
+            6
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "Who is this? This is my friend.",
+        "jyutping": "ni1 go3 hai6 bin1 go3? ni1 go3 hai6 ngo5 pang4 jau5.",
+        "target": [
+          "呢個",
+          "係",
+          "我",
+          "朋友"
+        ],
+        "pool": [
+          "呢個",
+          "係",
+          "我",
+          "朋友",
+          "邊個",
+          "爸爸"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "How do you say \"Friend\" in Cantonese?",
+          "options": [
+            "朋友 (pang4 jau5)",
+            "先生 (sin1 saang1)",
+            "伙計 (fo2 gei3)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "屋企人與朋友",
+      "lineId": 3
+    },
+    {
+      "level": 18,
+      "themeId": "green",
+      "stationChinese": "天氣好熱好凍",
+      "jyutping": "tin1 hei3 hou2 jit6 hou2 dung3",
+      "title": "Hot & Cold Weather",
+      "subtitle": "Rain, Heat & Everyday Weather",
+      "vocab": [
+        {
+          "chinese": "好熱",
+          "jyutping": "hou2 jit6",
+          "tones": [
+            2,
+            6
+          ],
+          "english": "Very hot",
+          "notes": "Hong Kong summer humidity."
+        },
+        {
+          "chinese": "好凍",
+          "jyutping": "hou2 dung3",
+          "tones": [
+            2,
+            3
+          ],
+          "english": "Very cold",
+          "notes": "Winter temperature."
+        },
+        {
+          "chinese": "落雨",
+          "jyutping": "lok6 jyu5",
+          "tones": [
+            6,
+            5
+          ],
+          "english": "Raining",
+          "notes": "Rainstorm."
+        },
+        {
+          "chinese": "帶遮",
+          "jyutping": "daai3 ze1",
+          "tones": [
+            3,
+            1
+          ],
+          "english": "Bring umbrella",
+          "notes": "Everyday preparedness."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "熱",
+          "syllable": "jit6",
+          "correctTone": 6,
+          "name": "Low Level (22)",
+          "meaning": "Hot",
+          "options": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "character": "雨",
+          "syllable": "jyu5",
+          "correctTone": 5,
+          "name": "Low Rising (23)",
+          "meaning": "Rain",
+          "options": [
+            1,
+            3,
+            5
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "It is raining today, remember to bring an umbrella.",
+        "jyutping": "gam1 jat6 lok6 jyu5, daai3 ze1.",
+        "target": [
+          "今日",
+          "落雨",
+          "帶遮"
+        ],
+        "pool": [
+          "今日",
+          "落雨",
+          "帶遮",
+          "好熱",
+          "好凍"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "How do you say \"It is raining\" in Cantonese?",
+          "options": [
+            "落雨 (lok6 jyu5)",
+            "出太陽 (ceot1 taai3 joeng4)",
+            "好熱 (hou2 jit6)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "天氣好熱好凍",
+      "lineId": 3
+    },
+    {
+      "level": 19,
+      "themeId": "yellow",
+      "stationChinese": "唔好意思與幫手",
+      "jyutping": "m4 hou2 ji3 si1 jyu5 bong1 sau2",
+      "title": "Asking for Help",
+      "subtitle": "Polite Favors & Requests",
+      "vocab": [
+        {
+          "chinese": "唔好意思",
+          "jyutping": "m4 hou2 ji3 si3",
+          "tones": [
+            4,
+            2,
+            3,
+            3
+          ],
+          "english": "Excuse me / Sorry / Pardon me",
+          "notes": "Very polite apology or interruption."
+        },
+        {
+          "chinese": "幫手",
+          "jyutping": "bong1 sau2",
+          "tones": [
+            1,
+            2
+          ],
+          "english": "Help out / Give a hand",
+          "notes": "Requesting aid."
+        },
+        {
+          "chinese": "可唔可以",
+          "jyutping": "ho2 m4 ho2 ji5",
+          "tones": [
+            2,
+            4,
+            2,
+            5
+          ],
+          "english": "Could you please? / Can I?",
+          "notes": "Polite permission formula."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "幫",
+          "syllable": "bong1",
+          "correctTone": 1,
+          "name": "High Level (55)",
+          "meaning": "To help",
+          "options": [
+            1,
+            3,
+            5
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "Pardon me, could you help me out?",
+        "jyutping": "m4 hou2 ji3 si3, ho2 m4 ho2 ji5 bong1 sau2?",
+        "target": [
+          "唔好意思",
+          "可唔可以",
+          "幫手"
+        ],
+        "pool": [
+          "唔好意思",
+          "可唔可以",
+          "幫手",
+          "多謝",
+          "冇問題"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "What is the most versatile phrase for \"Excuse me / Sorry\"?",
+          "options": [
+            "唔好意思 (m4 hou2 ji3 si3)",
+            "多謝 (do1 ze6)",
+            "拜拜 (baai1 baai3)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "唔好意思與幫手",
+      "lineId": 3
+    },
+    {
+      "level": 20,
+      "themeId": "black",
+      "stationChinese": "蝦餃與燒賣",
+      "jyutping": "haa1 gaau2 jyu5 siu1 maai2",
+      "title": "Dim Sum Ordering",
+      "subtitle": "Tea House Favorites & Steamers",
+      "vocab": [
+        {
+          "chinese": "蝦餃",
+          "jyutping": "haa1 gaau2",
+          "tones": [
+            1,
+            2
+          ],
+          "english": "Shrimp dumpling (Har Gow)",
+          "notes": "King of dim sum."
+        },
+        {
+          "chinese": "燒賣",
+          "jyutping": "siu1 maai2",
+          "tones": [
+            1,
+            2
+          ],
+          "english": "Pork & shrimp dumpling (Siu Mai)",
+          "notes": "Classic bamboo steamer dim sum."
+        },
+        {
+          "chinese": "叉燒包",
+          "jyutping": "caa1 siu1 baau1",
+          "tones": [
+            1,
+            1,
+            1
+          ],
+          "english": "BBQ pork bun",
+          "notes": "Steamed fluffy bun with savory sweet pork."
+        },
+        {
+          "chinese": "一籠",
+          "jyutping": "jat1 lung4",
+          "tones": [
+            1,
+            4
+          ],
+          "english": "One bamboo steamer",
+          "notes": "Measure word for dim sum."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "蝦",
+          "syllable": "haa1",
+          "correctTone": 1,
+          "name": "High Level (55)",
+          "meaning": "Shrimp",
+          "options": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "character": "餃",
+          "syllable": "gaau2",
+          "correctTone": 2,
+          "name": "High Rising (25)",
+          "meaning": "Dumpling",
+          "options": [
+            1,
+            2,
+            6
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "Please, one steamer of Har Gow and one Siu Mai.",
+        "jyutping": "m4 goi1, jat1 lung4 haa1 gaau2, jat1 lung4 siu1 maai2.",
+        "target": [
+          "唔該",
+          "一籠",
+          "蝦餃",
+          "一籠",
+          "燒賣"
+        ],
+        "pool": [
+          "唔該",
+          "一籠",
+          "蝦餃",
+          "一籠",
+          "燒賣",
+          "叉燒包"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "What is the Cantonese name for shrimp dumplings?",
+          "options": [
+            "蝦餃 (haa1 gaau2)",
+            "燒賣 (siu1 maai2)",
+            "多士 (do1 si2)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "蝦餃與燒賣",
+      "lineId": 3
+    },
+    {
+      "level": 21,
+      "themeId": "blue",
+      "stationChinese": "好開心與好攰",
+      "jyutping": "hou2 hoi1 sam1 jyu5 hou2 gui6",
+      "title": "Happy & Tired",
+      "subtitle": "Everyday Feelings & Expressions",
+      "vocab": [
+        {
+          "chinese": "好開心",
+          "jyutping": "hou2 hoi1 sam1",
+          "tones": [
+            2,
+            1,
+            1
+          ],
+          "english": "Very happy",
+          "notes": "Literally \"open heart\"."
+        },
+        {
+          "chinese": "好攰",
+          "jyutping": "hou2 gui6",
+          "tones": [
+            2,
+            6
+          ],
+          "english": "Very tired / exhausted",
+          "notes": "Quintessential commuter fatigue."
+        },
+        {
+          "chinese": "好正",
+          "jyutping": "hou2 zeng3",
+          "tones": [
+            2,
+            3
+          ],
+          "english": "Awesome / High quality",
+          "notes": "Colloquial praise."
+        },
+        {
+          "chinese": "好得意",
+          "jyutping": "hou2 dak1 ji3",
+          "tones": [
+            2,
+            1,
+            3
+          ],
+          "english": "Cute / Interesting",
+          "notes": "Compliment for animals or items."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "攰",
+          "syllable": "gui6",
+          "correctTone": 6,
+          "name": "Low Level (22)",
+          "meaning": "Tired",
+          "options": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "character": "正",
+          "syllable": "zeng3",
+          "correctTone": 3,
+          "name": "Mid Level (33)",
+          "meaning": "Awesome",
+          "options": [
+            1,
+            3,
+            5
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "Today is so awesome, I am very happy!",
+        "jyutping": "gam1 jat6 hou2 zeng3, ngo5 hou2 hoi1 sam1!",
+        "target": [
+          "今日",
+          "好正",
+          "好開心"
+        ],
+        "pool": [
+          "今日",
+          "好正",
+          "好開心",
+          "好攰",
+          "唔好"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "How do you say \"Awesome / Great!\" in Cantonese slang?",
+          "options": [
+            "好正 (hou2 zeng3)",
+            "好攰 (hou2 gui6)",
+            "落雨 (lok6 jyu5)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "好開心與好攰",
+      "lineId": 3
+    },
+    {
+      "level": 22,
+      "themeId": "red",
+      "stationChinese": "搞掂與埋單",
+      "jyutping": "gaau2 dim3 jyu5 maai4 daan1",
+      "title": "Local Slang",
+      "subtitle": "Real Colloquial Hong Kong Slang",
+      "vocab": [
+        {
+          "chinese": "搞掂",
+          "jyutping": "gaau2 dim3",
+          "tones": [
+            2,
+            3
+          ],
+          "english": "All set / Mission accomplished",
+          "notes": "The ultimate Hong Kong productivity word."
+        },
+        {
+          "chinese": "埋單",
+          "jyutping": "maai4 daan1",
+          "tones": [
+            4,
+            1
+          ],
+          "english": "Settle the bill / Check please",
+          "notes": "Restaurant checkout."
+        },
+        {
+          "chinese": "靚仔",
+          "jyutping": "leng3 zai2",
+          "tones": [
+            3,
+            2
+          ],
+          "english": "Handsome guy (also slang for white rice)",
+          "notes": "Diner and street address."
+        },
+        {
+          "chinese": "冇問題",
+          "jyutping": "mou5 man6 tai4",
+          "tones": [
+            5,
+            6,
+            4
+          ],
+          "english": "No problem / Sure thing",
+          "notes": "Reassurance formula."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "掂",
+          "syllable": "dim3",
+          "correctTone": 3,
+          "name": "Mid Level (33)",
+          "meaning": "Settled / Fixed",
+          "options": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "character": "冇",
+          "syllable": "mou5",
+          "correctTone": 5,
+          "name": "Low Rising (23)",
+          "meaning": "Without / None",
+          "options": [
+            2,
+            5,
+            6
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "No problem, everything is all set!",
+        "jyutping": "mou5 man6 tai4, gaau2 dim3 saai3!",
+        "target": [
+          "冇問題",
+          "搞掂"
+        ],
+        "pool": [
+          "冇問題",
+          "搞掂",
+          "埋單",
+          "靚仔"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "What does \"搞掂\" (gaau2 dim3) mean?",
+          "options": [
+            "All set / Done",
+            "No problem",
+            "Good morning"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "搞掂與埋單",
+      "lineId": 3
+    },
+    {
+      "level": 23,
+      "themeId": "teal",
+      "stationChinese": "因為與所以",
+      "jyutping": "jan1 wai6 jyu5 so2 ji5",
+      "title": "Because & So",
+      "subtitle": "Connecting Sentences Naturally",
+      "vocab": [
+        {
+          "chinese": "因為",
+          "jyutping": "jan1 wai6",
+          "tones": [
+            1,
+            6
+          ],
+          "english": "Because",
+          "notes": "Causal connector."
+        },
+        {
+          "chinese": "所以",
+          "jyutping": "so2 ji5",
+          "tones": [
+            2,
+            5
+          ],
+          "english": "Therefore / So",
+          "notes": "Result connector."
+        },
+        {
+          "chinese": "如果",
+          "jyutping": "jyu4 gwo2",
+          "tones": [
+            4,
+            2
+          ],
+          "english": "If / Supposing",
+          "notes": "Conditional connector."
+        },
+        {
+          "chinese": "就",
+          "jyutping": "zau6",
+          "tones": [
+            6
+          ],
+          "english": "Then",
+          "notes": "Consecutive marker."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "因",
+          "syllable": "jan1",
+          "correctTone": 1,
+          "name": "High Level (55)",
+          "meaning": "Cause",
+          "options": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "character": "所",
+          "syllable": "so2",
+          "correctTone": 2,
+          "name": "High Rising (25)",
+          "meaning": "Place / So",
+          "options": [
+            1,
+            2,
+            4
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "Because I like Hong Kong, so I learn Cantonese.",
+        "jyutping": "jan1 wai6 ngo5 zung1 ji3 hoeng1 gong2, so2 ji5 ngo5 hok6 gwong2 dung1 waa2.",
+        "target": [
+          "因為",
+          "我",
+          "鍾意",
+          "所以",
+          "學"
+        ],
+        "pool": [
+          "因為",
+          "我",
+          "鍾意",
+          "所以",
+          "學",
+          "如果"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "How do you say \"Because... therefore...\" in Cantonese?",
+          "options": [
+            "因為……所以…… (jan1 wai6... so2 ji5...)",
+            "如果……就……",
+            "但係……"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "因為與所以",
+      "lineId": 3
+    },
+    {
+      "level": 24,
+      "themeId": "purple",
+      "stationChinese": "流利廣東話",
+      "jyutping": "lau4 lei6 gwong2 dung1 waa2",
+      "title": "Fluency Checkpoint",
+      "subtitle": "Comprehensive Hong Kong Dialogue",
+      "vocab": [
+        {
+          "chinese": "廣東話",
+          "jyutping": "gwong2 dung1 waa2",
+          "tones": [
+            2,
+            1,
+            2
+          ],
+          "english": "Cantonese language",
+          "notes": "Native tongue of Hong Kong."
+        },
+        {
+          "chinese": "好流利",
+          "jyutping": "hou2 lau4 lei6",
+          "tones": [
+            2,
+            4,
+            6
+          ],
+          "english": "Very fluent",
+          "notes": "Fluency in speech."
+        },
+        {
+          "chinese": "香港人",
+          "jyutping": "hoeng1 gong2 jan4",
+          "tones": [
+            1,
+            2,
+            4
+          ],
+          "english": "Hongkonger / Local resident",
+          "notes": "Identity and belonging."
+        },
+        {
+          "chinese": "加油",
+          "jyutping": "gaa1 jau4",
+          "tones": [
+            1,
+            2
+          ],
+          "english": "Keep going! / Add oil!",
+          "notes": "Classic Hong Kong rallying cry."
+        }
+      ],
+      "toneDrill": [
+        {
+          "character": "話",
+          "syllable": "waa2",
+          "correctTone": 2,
+          "name": "High Rising (25)",
+          "meaning": "Spoken language",
+          "options": [
+            1,
+            2,
+            6
+          ]
+        },
+        {
+          "character": "港",
+          "syllable": "gong2",
+          "correctTone": 2,
+          "name": "High Rising (25)",
+          "meaning": "Port / Hong Kong",
+          "options": [
+            2,
+            4,
+            5
+          ]
+        }
+      ],
+      "sentence": {
+        "english": "I can speak Cantonese, keep going!",
+        "jyutping": "ngo5 sik1 gong2 gwong2 dung1 waa2, gaa1 jau4!",
+        "target": [
+          "我",
+          "識講",
+          "廣東話",
+          "加油"
+        ],
+        "pool": [
+          "我",
+          "識講",
+          "廣東話",
+          "加油",
+          "好流利"
+        ]
+      },
+      "exam": [
+        {
+          "type": "vocab",
+          "question": "What is the classic Hong Kong expression of encouragement?",
+          "options": [
+            "加油！ (gaa1 jau4!)",
+            "拜拜！ (baai1 baai3!)",
+            "唔該！ (m4 goi1!)"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "chineseTitle": "流利廣東話",
+      "lineId": 3
+    }
+  ]
+}

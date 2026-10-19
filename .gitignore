@@ -1,5 +1,5 @@
 # ============================================
-# Candle — .gitignore
+# Jyut.Toi — .gitignore
 # ============================================
 
 # Dependencies
@@ -8,6 +8,9 @@ node_modules/
 # Build output
 dist/
 dist-ssr/
+target/
+core/target/
+ios_swiftui_backup/
 
 # Vite cache
 .vite/
@@ -44,3 +47,12 @@ desktop.ini
 
 # screenshots
 logo/Screenshot*
+
+# Binary archives & reverse-engineering tools
+*.zip
+*.xapk
+*.apk
+jadx-master/
+analysis/jadx/
+analysis/apktool/
+analysis/unpacked/

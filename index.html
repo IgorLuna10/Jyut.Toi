@@ -1,19 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-HK">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/candle.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>c a n d l e | Daily Cantonese</title>
+    <link rel="icon" type="image/png" href="/icon.png" />
+    <link rel="apple-touch-icon" href="/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    
+    <title>Jyut.Toi: Learn Cantonese</title>
+    <meta name="description" content="A focused Cantonese learning system. Master tones, daily vocabulary, sentence structure, and authentic Hong Kong dialogues on iOS, Android, and web." />
+    
+    <!-- OpenGraph & Social Cards -->
+    <meta property="og:title" content="Jyut.Toi: Learn Cantonese" />
+    <meta property="og:description" content="Master Cantonese sounds, tones, sentence building, and Hong Kong dialogues with focused daily exercises." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/icon.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Apple Web App meta -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- Google Fonts: Plus Jakarta Sans for UI, Noto Sans HK & Noto Serif HK for Hong Kong Chinese -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Noto+Sans+HK:wght@500;700;900&family=Noto+Serif+HK:wght@600;700;900&display=swap" rel="stylesheet">
 
     <!-- Apply dark mode BEFORE first paint to prevent white flash -->
     <script>
       (function () {
         try {
-          if (localStorage.getItem('candle-theme') === 'dark') {
+          if (localStorage.getItem('app-theme') === 'dark') {
             document.documentElement.classList.add('dark');
             document.body && document.body.classList.add('dark');
           }
@@ -21,7 +37,7 @@
       })();
     </script>
   </head>
-  <body>
+  <body class="antialiased overflow-x-hidden selection:bg-red-500/20">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
