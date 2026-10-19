@@ -1,31 +1,34 @@
 import React, { useState, useEffect } from 'react';
-import Layout from './components/Layout';
-import Dashboard from './components/Dashboard';
-import WordChallenge from './components/WordChallenge';
-import PhraseDisplay from './components/PhraseDisplay';
-import { candleAPI } from './services/candle-api';
+import { Capacitor } from '@capacitor/core';
+import { SplashScreen } from '@capacitor/splash-screen';
+import { StatusBar, Style } from '@capacitor/status-bar';
+import AppShell from './components/AppShell';
+import LandingPage from './components/LandingPage';
+import { metroService } from './services/metroService';
 
 function App() {
-    const [view, setView] = useState('home');
-    const [content, setContent] = useState(null);
-    const [streak, setStreak] = useState(0);
+    const isNative = Capacitor.isNativePlatform();
 
-    // Lazy initializer avoids calling localStorage during SSR / before hydration
-    const [isDark, setIsDark] = useState(
-        () => localStorage.getItem('candle-theme') === 'dark'
-    );
+    // Default to 'app' so the actual Cantonese learning app loads immediately.
+    // If running inside Capacitor (iOS / Android native app), ALWAYS show the real app.
+    // On web, allow ?landing=true to preview the landing page showcase if desired.
+    const [view, setView] = useState(() => {
+        if (isNative) return 'app';
+        try {
+            const params = new URLSearchParams(window.location.search);
+            if (params.get('landing') === 'true') return 'landing';
+        } catch (e) {}
+        return 'app';
+    });
 
-    useEffect(() => {
-        const loadData = async () => {
-            const data = await candleAPI.getTodaysContent();
-            setContent(data);
-            setStreak(candleAPI.getStreak());
-        };
-        loadData();
-    }, []);
+    const [content] = useState(() => {
+        const lvl1 = metroService.getLevel(1);
+        const w = lvl1?.vocab?.[0] || { chinese: '你好', jyutping: 'nei5 hou2', english: 'hello' };
+        return { mainWord: w };
+    });
+    const [streak] = useState(() => metroService.getProgress().streak ?? 0);
 
-    // Apply dark class to both <html> and <body> so Tailwind dark: utilities
-    // AND the body.dark CSS rule in index.css both work correctly.
+    // Apply dark class to <html> and <body>
     useEffect(() => {
         document.documentElement.classList.toggle('dark', isDark);
         document.body.classList.toggle('dark', isDark);
@@ -34,34 +37,29 @@ function App() {
     const toggleTheme = () => {
         const newTheme = !isDark;
         setIsDark(newTheme);
-        localStorage.setItem('candle-theme', newTheme ? 'dark' : 'light');
+        localStorage.setItem('app-theme', newTheme ? 'dark' : 'light');
     };
 
+    // If on web and user specifically requested the landing showcase
+    if (!isNative && view === 'landing') {
+        return (
+            <LandingPage
+                content={content}
+                streak={streak}
+                isDark={isDark}
+                toggleTheme={toggleTheme}
+                onLaunchWebApp={() => setView('app')}
+            />
+        );
+    }
+
+    // Otherwise render the full Hong Kong Transit Mobile App
     return (
-        <Layout currentView={view} setView={setView} isDark={isDark} toggleTheme={toggleTheme}>
-            {view === 'home' && (
-                <Dashboard
-                    content={content}
-                    streak={streak}
-                    setView={setView}
-                    onChallengeComplete={() => setStreak(candleAPI.getStreak())}
-                />
-            )}
-            {view === 'word' && content && (
-                <WordChallenge
-                    word={content.dailyWord}
-                    onBack={() => setView('home')}
-                    onNext={() => setView('phrase')}
-                />
-            )}
-            {view === 'phrase' && content && (
-                <PhraseDisplay
-                    phrase={content.dailyPhrase}
-                    onBack={() => setView('home')}
-                    onWord={() => setView('word')}
-                />
-            )}
-        </Layout>
+        <AppShell
+            isDark={isDark}
+            toggleTheme={toggleTheme}
+            onExitToLanding={isNative ? null : () => setView('landing')}
+        />
     );
 }
 
