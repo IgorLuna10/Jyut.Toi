@@ -330,7 +330,7 @@ const PATTERN_REGISTRY = {
     fixedPrefix: '我 嘟',
     slots: [
       { label: 'Card', options: ['八達通', '信用卡', '現金'], correct: '八達通' },
-      { label: 'Declined', options: ['膠袋', '印單', '餐具'], correct: '膠袋' },
+      { label: 'Declined', options: ['唔使 膠袋', '要 膠袋', '印單'], correct: '唔使 膠袋' },
     ],
     targetSentence: '我 嘟 八達通 唔使 膠袋',
     english: 'I will tap Octopus, no bag needed.',
@@ -369,7 +369,7 @@ const PATTERN_REGISTRY = {
     fixedPrefix: '唔該 一籠',
     slots: [
       { label: 'First', options: ['蝦餃', '叉燒包', '多士'], correct: '蝦餃' },
-      { label: 'Second', options: ['燒賣', '蛋撻', '腸粉'], correct: '燒賣' },
+      { label: 'Second', options: ['一籠 燒賣', '一籠 蛋撻', '一碟 腸粉'], correct: '一籠 燒賣' },
     ],
     targetSentence: '唔該 一籠 蝦餃 一籠 燒賣',
     english: 'One steamer of Har Gow and one Siu Mai.',
@@ -388,10 +388,10 @@ const PATTERN_REGISTRY = {
     template: 'All set phrase',
     slots: [
       { label: 'Calm', options: ['冇問題', '放心啦', '唔緊要'], correct: '冇問題' },
-      { label: 'Done', options: ['搞掂', '埋單', '搞亂'], correct: '搞掂' },
+      { label: 'Done', options: ['全部搞掂', '全部搞亂', '埋單'], correct: '全部搞掂' },
     ],
     fixedSuffix: '！',
-    targetSentence: '冇問題 全部 搞掂！',
+    targetSentence: '冇問題 全部搞掂！',
     english: 'No problem, everything is all set!',
   },
   23: {
@@ -399,7 +399,7 @@ const PATTERN_REGISTRY = {
     fixedPrefix: '因為',
     slots: [
       { label: 'Reason', options: ['鍾意香港', '有時間', '想返工'], correct: '鍾意香港' },
-      { label: 'Result', options: ['學廣東話', '買機票', '瞓覺'], correct: '學廣東話' },
+      { label: 'Result', options: ['所以 學廣東話', '所以 買機票', '所以 瞓覺'], correct: '所以 學廣東話' },
     ],
     targetSentence: '因為 鍾意香港 所以 學廣東話',
     english: 'Because I love Hong Kong, so I learn Cantonese.',
