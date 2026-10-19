@@ -56,8 +56,8 @@ export default function InteractiveCantoneseText({
   const handleTokenClick = (e, token) => {
     e.stopPropagation();
 
-    // Skip punctuation and non-Chinese Latin words
-    if (!/[\u4e00-\u9fa5]/.test(token)) return;
+    // Skip punctuation and non-Chinese Latin words (supports all CJK extensions)
+    if (!/\p{Script=Han}/u.test(token)) return;
 
     // Look up dictionary
     const exact = dictionaryEngine.getExact(token);
@@ -123,7 +123,7 @@ export default function InteractiveCantoneseText({
         <div
           className="fixed z-50 p-3 rounded-2xl bg-slate-900 text-white border border-slate-700 shadow-2xl animate-fade-in max-w-xs text-left"
           style={{
-            top: Math.max(10, activeTooltip.rect.top - 90),
+            top: activeTooltip.rect.top < 110 ? activeTooltip.rect.bottom + 8 : activeTooltip.rect.top - 90,
             left: Math.max(16, Math.min(window.innerWidth - 260, activeTooltip.rect.left - 40)),
           }}
           onClick={(e) => e.stopPropagation()}
