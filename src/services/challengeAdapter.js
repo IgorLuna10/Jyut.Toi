@@ -597,7 +597,7 @@ export const challengeAdapter = {
     // 6. TACTILE SENTENCE ASSEMBLER: "Build the sentence"
     if (level.sentence && Array.isArray(level.sentence.target)) {
       const s = level.sentence;
-      const pool = Array.from(new Set([...s.target, ...(s.pool || [])])).sort(() => Math.random() - 0.5);
+      const pool = [...(s.pool || s.target)].sort(() => Math.random() - 0.5);
 
       nodes.push({
         id: `lvl_${levelNum}_sentence`,
