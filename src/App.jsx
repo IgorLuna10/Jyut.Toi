@@ -28,6 +28,23 @@ function App() {
     });
     const [streak] = useState(() => metroService.getProgress().streak ?? 0);
 
+    // Dark mode state
+    const [isDark, setIsDark] = useState(
+        () => typeof window !== 'undefined' && localStorage.getItem('app-theme') === 'dark'
+    );
+
+    // Initialize native device features
+    useEffect(() => {
+        if (isNative) {
+            try {
+                StatusBar.setStyle({ style: isDark ? Style.Dark : Style.Light });
+                SplashScreen.hide();
+            } catch (e) {
+                console.warn('Native statusbar / splashscreen init:', e);
+            }
+        }
+    }, [isNative, isDark]);
+
     // Apply dark class to <html> and <body>
     useEffect(() => {
         document.documentElement.classList.toggle('dark', isDark);
