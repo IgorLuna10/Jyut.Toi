@@ -1,11 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Volume2, VolumeX, Moon, Sun, Flame, Zap, Radio, Check, ChevronDown } from 'lucide-react';
+import { Volume2, VolumeX, Moon, Sun, Flame, Heart, Sparkles, Radio, Check, ChevronDown } from 'lucide-react';
 import { acousticSimulator } from '../services/acousticSimulator';
 import { hapticsService } from '../services/hapticsService';
 
 export default function NavigationHeader({
-  streak = 7,
-  xp = 480,
+  streak = 0,
+  xp = 0,
+  hearts = 5,
   isDark = false,
   toggleTheme,
   currentStation = { chinese: '你好與拜拜', jyutping: 'nei5 hou2', level: 1, title: 'Hello & Goodbye' }
@@ -68,20 +69,29 @@ export default function NavigationHeader({
           
           {/* Daily Streak */}
           <div 
-            className="flex items-center gap-1 px-2 py-1.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-600 dark:text-amber-400 text-xs font-bold"
+            className="flex items-center gap-1 px-2 py-1.5 rounded-xl bg-orange-500/10 border border-orange-500/30 text-orange-700 dark:text-orange-400 text-xs font-black shadow-xs"
             title={`${streak} Day Streak`}
           >
-            <Flame className="w-3.5 h-3.5 fill-amber-500 text-amber-500" />
+            <Flame className="w-3.5 h-3.5 fill-orange-500 text-orange-500" />
             <span>{streak}</span>
           </div>
 
-          {/* XP Meter */}
+          {/* Energy / Stamina (Depletable Hearts) */}
           <div 
-            className="flex items-center gap-1 px-2 py-1.5 rounded-xl bg-teal-500/10 border border-teal-500/30 text-teal-600 dark:text-teal-400 text-xs font-bold"
+            className="flex items-center gap-1 px-2 py-1.5 rounded-xl bg-rose-500/10 border border-rose-500/30 text-rose-700 dark:text-rose-400 text-xs font-black shadow-xs"
+            title={`${hearts}/5 Stamina · Depletes on mistakes`}
+          >
+            <Heart className="w-3.5 h-3.5 fill-rose-500 text-rose-500" />
+            <span>{hearts}/5</span>
+          </div>
+
+          {/* XP Points */}
+          <div 
+            className="flex items-center gap-1 px-2 py-1.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-700 dark:text-amber-400 text-xs font-black shadow-xs"
             title={`${xp} Total XP`}
           >
-            <Zap className="w-3.5 h-3.5 fill-teal-500 text-teal-500" />
-            <span>{xp}</span>
+            <Sparkles className="w-3.5 h-3.5 fill-amber-500 text-amber-500" />
+            <span>{xp} XP</span>
           </div>
 
           {/* Acoustic Ambient Soundscape Menu */}
@@ -95,7 +105,7 @@ export default function NavigationHeader({
               className={`p-2 rounded-xl border transition-all flex items-center justify-center select-none active:scale-95 ${
                 ambientMode !== 'none'
                   ? 'bg-cct-jade text-white border-cct-jade shadow-glow-jade'
-                  : 'bg-slate-100 hover:bg-slate-200/80 border-slate-300 dark:bg-subway-surface dark:hover:bg-subway-card dark:border-subway-border text-slate-700 dark:text-slate-200'
+                  : 'bg-slate-100 hover:bg-slate-200/80 border-slate-300 dark:bg-subway-surface dark:hover:bg-subway-card dark:border-subway-border text-slate-800 dark:text-slate-100'
               }`}
               title="Hong Kong Ambient Soundscape"
               aria-label="Toggle Soundscape"
@@ -113,8 +123,8 @@ export default function NavigationHeader({
 
             {/* Dropdown Menu */}
             {ambientMenuOpen && (
-              <div className="absolute right-0 mt-2 w-64 p-2 rounded-2xl bg-white dark:bg-subway-card border border-slate-200 dark:border-subway-border shadow-2xl z-50 animate-fade-in text-left">
-                <div className="px-2.5 py-1 text-[11px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider">
+              <div className="absolute right-0 mt-2 w-64 p-2 rounded-2xl bg-white dark:bg-subway-card border-2 border-slate-300 dark:border-subway-border shadow-2xl z-50 animate-fade-in text-left">
+                <div className="px-2.5 py-1 text-[11px] font-black text-slate-700 dark:text-slate-300 uppercase tracking-wider">
                   Audio Atmosphere
                 </div>
                 <div className="mt-1 space-y-1">
@@ -125,14 +135,14 @@ export default function NavigationHeader({
                       onClick={() => handleSelectSoundscape(s.id)}
                       className={`w-full p-2.5 rounded-xl text-left flex items-start gap-2.5 transition-colors ${
                         ambientMode === s.id
-                          ? 'bg-cct-jade/10 text-cct-jade dark:text-emerald-400 font-bold border border-cct-jade/30'
-                          : 'hover:bg-slate-100 dark:hover:bg-white/5 text-slate-700 dark:text-slate-200'
+                          ? 'bg-cct-jade/15 text-cct-jade dark:text-emerald-300 font-bold border border-cct-jade/40'
+                          : 'hover:bg-slate-100 dark:hover:bg-white/5 text-slate-800 dark:text-slate-200'
                       }`}
                     >
                       <span className="text-lg">{s.icon}</span>
                       <div className="min-w-0 flex-1">
-                        <div className="text-xs font-semibold leading-tight">{s.label}</div>
-                        <div className="text-[10px] text-slate-400 dark:text-slate-400 leading-tight mt-0.5">
+                        <div className="text-xs font-bold leading-tight">{s.label}</div>
+                        <div className="text-[10px] font-medium text-slate-600 dark:text-slate-300 leading-tight mt-0.5">
                           {s.sublabel}
                         </div>
                       </div>

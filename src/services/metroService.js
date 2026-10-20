@@ -1,5 +1,6 @@
 import themesData from '@shared/themes.json';
 import levelsData from '@shared/levels.json';
+import { CHAPTERS } from '../data/chaptersData';
 
 const PROGRESS_STORAGE_KEY = 'jyut-toi-metro-progress';
 
@@ -94,6 +95,74 @@ class MetroService {
     progress.xp += amount;
     this.saveProgress();
     return progress.xp;
+  }
+
+  // Chapter Architecture support
+  getChapters() {
+    const progress = this.getProgress();
+    return CHAPTERS.map((ch) => {
+      if (ch.id === 0) {
+        return {
+          ...ch,
+          totalLevels: 0,
+          completedLevels: 0,
+          isUnlocked: true,
+          isCompleted: false,
+        };
+      }
+      const chapterLevels = this.levels.filter((l) => l.lineId === ch.id);
+      const completedCount = chapterLevels.filter((l) =>
+        progress.completedLevels.includes(l.level)
+      ).length;
+      const isUnlocked =
+        ch.id === 1 ||
+        chapterLevels.some((l) => progress.unlockedLevels.includes(l.level));
+
+      return {
+        ...ch,
+        totalLevels: chapterLevels.length,
+        completedLevels: completedCount,
+        isUnlocked,
+        isCompleted: completedCount >= chapterLevels.length && chapterLevels.length > 0,
+      };
+    });
+  }
+
+  getChapter(chapterId) {
+    return CHAPTERS.find((c) => c.id === Number(chapterId)) || CHAPTERS[1];
+  }
+
+  getLevelsForChapter(chapterId) {
+    const id = Number(chapterId);
+    if (id === 0) return [];
+    return this.levels.filter((l) => l.lineId === id);
+  }
+
+  getChapterForLevel(levelNumber) {
+    const lvl = this.getLevel(levelNumber);
+    if (!lvl) return CHAPTERS[1];
+    return CHAPTERS.find((c) => c.id === lvl.lineId) || CHAPTERS[1];
+  }
+
+  // Depletable Energy / Stamina (Hearts)
+  getHearts() {
+    const progress = this.getProgress();
+    return progress.hearts ?? 5;
+  }
+
+  deductHeart() {
+    const progress = this.getProgress();
+    const current = progress.hearts ?? 5;
+    progress.hearts = Math.max(0, current - 1);
+    this.saveProgress();
+    return progress.hearts;
+  }
+
+  restoreHearts() {
+    const progress = this.getProgress();
+    progress.hearts = 5;
+    this.saveProgress();
+    return 5;
   }
 
   // Synthesize authentic Hong Kong transit chimes using Web Audio API

@@ -96,7 +96,7 @@ export default function ProfileView({ streak = 0, xp = 0, onAddXp, onLaunchRemed
         <div className="mt-5 pt-3.5 border-t border-white/10 relative z-10">
           <div className="flex justify-between text-xs font-mono mb-2">
             <span className="text-slate-200 font-bold flex items-center gap-1.5">
-              <Zap className="w-4 h-4 fill-teal-400 text-teal-400" />
+              <Sparkles className="w-4 h-4 fill-amber-400 text-amber-400" />
               <span>{xp} Total Commuter XP</span>
             </span>
             <span className="text-teal-300 font-bold">

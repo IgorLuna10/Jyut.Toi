@@ -128,6 +128,7 @@ export default function AppShell({ isDark, toggleTheme, onExitToLanding }) {
           <NavigationHeader
             streak={progress.streak ?? 0}
             xp={progress.xp ?? 0}
+            hearts={progress.hearts ?? 5}
             isDark={isDark}
             toggleTheme={toggleTheme}
             currentStation={currentStationInfo}

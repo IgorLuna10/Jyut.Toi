@@ -33,8 +33,8 @@ export default function BottomNav({ activeTab, setActiveTab }) {
               onClick={() => handleTabClick(tab.id)}
               className={`group flex flex-col items-center justify-center py-2 px-1 min-h-[48px] rounded-2xl transition-all duration-200 relative touch-manipulation select-none active:scale-95 ${
                 isActive
-                  ? 'text-mtr-red dark:text-red-400 font-bold'
-                  : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 font-medium'
+                  ? 'text-mtr-red dark:text-red-400 font-black'
+                  : 'text-slate-700 hover:text-slate-950 dark:text-slate-300 dark:hover:text-white font-bold'
               }`}
               aria-label={tab.label}
               aria-current={isActive ? 'page' : undefined}
