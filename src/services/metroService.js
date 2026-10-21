@@ -1,6 +1,7 @@
 import themesData from '@shared/themes.json';
 import levelsData from '@shared/levels.json';
 import { CHAPTERS } from '../data/chaptersData';
+import { supabaseSyncService } from './supabaseSyncService';
 
 const PROGRESS_STORAGE_KEY = 'jyut-toi-metro-progress';
 
@@ -19,6 +20,8 @@ class MetroService {
       const saved = localStorage.getItem(PROGRESS_STORAGE_KEY);
       if (saved) {
         this._progress = JSON.parse(saved);
+        if (!this._progress.stationRounds) this._progress.stationRounds = {};
+        if (!this._progress.stationMastery) this._progress.stationMastery = {};
         return this._progress;
       }
     } catch (e) {
@@ -36,6 +39,8 @@ class MetroService {
       xp: 0,
       streak: 0,
       hearts: 5,
+      stationRounds: {},
+      stationMastery: {},
     };
     this.saveProgress();
     return this._progress;
@@ -88,6 +93,76 @@ class MetroService {
     progress.xp += 100;
     this.saveProgress();
     return nextLevelNum;
+  }
+
+  // Multi-Round & Sub-Level Management ("levels by levels")
+  getStationRound(levelNumber) {
+    const progress = this.getProgress();
+    return progress.stationRounds?.[Number(levelNumber)] || 1;
+  }
+
+  getStationMastery(levelNumber) {
+    const progress = this.getProgress();
+    const lvlNum = Number(levelNumber);
+    if (progress.stationMastery && typeof progress.stationMastery[lvlNum] === 'number') {
+      return progress.stationMastery[lvlNum];
+    }
+    return this.isCompleted(lvlNum) ? 1 : 0;
+  }
+
+  setStationRound(levelNumber, roundNum) {
+    const progress = this.getProgress();
+    if (!progress.stationRounds) progress.stationRounds = {};
+    progress.stationRounds[Number(levelNumber)] = Math.max(1, Math.min(3, Number(roundNum)));
+    this.saveProgress();
+    return progress.stationRounds[Number(levelNumber)];
+  }
+
+  completeStationRound(levelNumber, roundNum = 1, xpEarned = 100) {
+    const lvlNum = Number(levelNumber);
+    const roundNumber = Number(roundNum);
+    const progress = this.getProgress();
+    if (!progress.stationRounds) progress.stationRounds = {};
+    if (!progress.stationMastery) progress.stationMastery = {};
+
+    // 1. Mark station cleared on the line
+    if (!progress.completedLevels.includes(lvlNum)) {
+      progress.completedLevels.push(lvlNum);
+    }
+
+    // 2. Unlock next station if cleared round 1
+    const nextLevelNum = lvlNum + 1;
+    if (nextLevelNum <= this.levels.length && !progress.unlockedLevels.includes(nextLevelNum)) {
+      progress.unlockedLevels.push(nextLevelNum);
+      progress.currentLevelId = nextLevelNum;
+    }
+
+    // 3. Update station mastery (max 3 stars)
+    const currentMastery = progress.stationMastery[lvlNum] || 0;
+    progress.stationMastery[lvlNum] = Math.max(currentMastery, roundNumber);
+
+    // 4. Advance station round to next round (1 -> 2 -> 3)
+    const nextRound = roundNumber >= 3 ? 1 : roundNumber + 1;
+    progress.stationRounds[lvlNum] = nextRound;
+
+    // 5. Award XP
+    progress.xp += xpEarned;
+    this.saveProgress();
+
+    // 6. Queue offline-resilient sync to Supabase
+    try {
+      supabaseSyncService.queueCompletion({
+        stationId: lvlNum,
+        round: roundNumber,
+        xpEarned,
+        accuracy: 100,
+        localDate: new Date().toISOString().split('T')[0],
+      });
+    } catch (e) {
+      console.warn('Sync queue error:', e);
+    }
+
+    return { nextLevelNum, nextRound, mastery: progress.stationMastery[lvlNum] };
   }
 
   addXp(amount) {

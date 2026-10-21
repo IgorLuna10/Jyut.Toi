@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Lock, CheckCircle2, Play, Volume2, ArrowRight, BookOpen, ChevronRight, X, Sparkles, Compass } from 'lucide-react';
+import { Lock, CheckCircle2, Play, Volume2, ArrowRight, BookOpen, ChevronRight, X, Sparkles, Star, Compass } from 'lucide-react';
 import { metroService } from '@/services/metroService';
 import { speechEngine } from '@/services/speechEngine';
 import { hapticsService } from '@/services/hapticsService';
@@ -42,10 +42,10 @@ export default function MetroLineMap({
     }
   };
 
-  const handleLaunchStation = (lvl) => {
+  const handleLaunchStation = (lvl, roundNum) => {
     hapticsService.tapMedium();
     setInspectStation(null);
-    onSelectStation(lvl);
+    onSelectStation(lvl, roundNum);
   };
 
   const handleSpeak = (e, text) => {
@@ -185,6 +185,10 @@ export default function MetroLineMap({
                 const theme = themesData.themes[lvl.themeId] || themesData.themes.red;
                 const mode = isDark ? theme.night : theme.light;
 
+                const stationRound = metroService.getStationRound(lvl.level);
+                const mastery = metroService.getStationMastery(lvl.level);
+                const activeRoundData = lvl.rounds ? lvl.rounds[stationRound - 1] : null;
+
                 return (
                   <div
                     key={lvl.level}
@@ -227,7 +231,7 @@ export default function MetroLineMap({
                       >
                         {isUnlocked ? (
                           <>
-                            {isCompleted ? (
+                            {mastery >= 3 ? (
                               <CheckCircle2 className="w-8 h-8 text-white stroke-[2.5]" />
                             ) : (
                               <span 
@@ -247,15 +251,26 @@ export default function MetroLineMap({
                           </div>
                         )}
                       </div>
+
+                      {/* Star Mastery Badge on Node */}
+                      {isUnlocked && mastery > 0 && (
+                        <div className="absolute -bottom-2.5 left-1/2 -translate-x-1/2 px-2 py-0.2 rounded-full bg-slate-900 dark:bg-black border border-amber-400 text-amber-400 text-[10px] font-black flex items-center gap-0.5 shadow-sm">
+                          {Array.from({ length: 3 }).map((_, i) => (
+                            <span key={i} className={i < mastery ? 'text-amber-400' : 'text-slate-600'}>
+                              ★
+                            </span>
+                          ))}
+                        </div>
+                      )}
                     </div>
 
                     {/* Active Station Card vs Compact Station Label */}
                     {isCurrent ? (
-                      /* ACTIVE CURRENT STATION CARD: Focused, clean, high-contrast, no clutter */
+                      /* ACTIVE CURRENT STATION CARD: Multi-Round Awareness */
                       <div className="mt-3 p-4 rounded-2xl bg-white dark:bg-subway-surface border-2 border-mtr-red dark:border-red-500/80 shadow-md w-full max-w-xs text-left transition-all">
                         <div className="flex items-center justify-between gap-1 mb-1">
                           <span className="text-[10px] font-black px-2 py-0.5 rounded-full bg-mtr-red text-white uppercase tracking-wider">
-                            Current Stop · Stop {lvl.level}
+                            Stop {lvl.level} · Round {stationRound}/3
                           </span>
                           <button
                             type="button"
@@ -278,24 +293,34 @@ export default function MetroLineMap({
                           <span className="text-slate-700 dark:text-slate-300">{lvl.jyutping}</span>
                         </div>
 
+                        {/* Round Info */}
+                        <div className="mt-2 p-2 rounded-xl bg-slate-100 dark:bg-slate-900/60 border border-slate-300 dark:border-slate-700 text-xs">
+                          <div className="font-bold text-slate-900 dark:text-white">
+                            Track {stationRound}: {activeRoundData?.title || 'Core Drills'}
+                          </div>
+                          <div className="text-[11px] font-medium text-slate-600 dark:text-slate-400 mt-0.5">
+                            {activeRoundData?.subtitle || lvl.subtitle}
+                          </div>
+                        </div>
+
                         {/* Action Button */}
                         <button
                           type="button"
                           onClick={(e) => {
                             e.stopPropagation();
-                            handleLaunchStation(lvl);
+                            handleLaunchStation(lvl, stationRound);
                           }}
                           className="mt-3 w-full py-3 px-4 rounded-xl font-black text-xs text-white flex items-center justify-center gap-2 shadow-md hover:brightness-110 active:scale-98 transition-all"
                           style={{ backgroundColor: mode.accent }}
                         >
                           <Play className="w-4 h-4 fill-current" />
-                          <span>Board Station {lvl.level}</span>
+                          <span>Board Round {stationRound}</span>
                           <ArrowRight className="w-4 h-4" />
                         </button>
                       </div>
                     ) : (
-                      /* OTHER STATIONS: Clean, High-Contrast Station Label (Minimal & Legible) */
-                      <div className="mt-2 text-center max-w-xs px-2">
+                      /* OTHER STATIONS: Clean, High-Contrast Station Label with Stars */
+                      <div className="mt-3 text-center max-w-xs px-2">
                         <div className="text-sm font-black text-slate-900 dark:text-white leading-tight">
                           {lvl.chineseTitle || lvl.stationChinese}
                         </div>
@@ -303,8 +328,10 @@ export default function MetroLineMap({
                           {lvl.title} · <span className="font-medium text-slate-600 dark:text-slate-400">{lvl.jyutping}</span>
                         </div>
                         {isUnlocked && (
-                          <div className="text-[10px] font-bold text-mtr-red dark:text-red-400 mt-0.5 inline-flex items-center gap-1">
-                            <span>{isCompleted ? '✓ Cleared · Tap to Review' : 'Tap to Start'}</span>
+                          <div className="text-[10px] font-bold text-mtr-red dark:text-red-400 mt-1 inline-flex items-center gap-1.5">
+                            <span>Round {stationRound}/3</span>
+                            <span>·</span>
+                            <span>{isCompleted ? '✓ Cleared · Tap for Tracks' : 'Tap to Start'}</span>
                           </div>
                         )}
                       </div>
@@ -321,7 +348,7 @@ export default function MetroLineMap({
       )}
 
       {/* ─────────────────────────────────────────────────────────────
-          3. STATION DETAIL MODAL (On Tapping Station)
+          3. STATION DETAIL MODAL (Multi-Round / Sub-Level Tracks)
           ───────────────────────────────────────────────────────────── */}
       {inspectStation && (
         <div
@@ -373,31 +400,71 @@ export default function MetroLineMap({
               Jyutping: {inspectStation.jyutping}
             </div>
 
-            {/* Station Curriculum Content Overview */}
-            <div className="mt-4 p-3 rounded-2xl bg-slate-100 dark:bg-slate-900/50 border border-slate-300 dark:border-slate-700 space-y-1.5 text-xs font-semibold text-slate-800 dark:text-slate-200">
-              <div className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-mtr-red" />
-                <span>Vocabulary: {inspectStation.vocab?.length || 4} key phrases</span>
+            {/* Multi-Round / Sub-Levels Track Selector */}
+            <div className="mt-4 space-y-2">
+              <div className="text-xs font-black text-slate-800 dark:text-slate-200 uppercase tracking-wider">
+                Station Sub-Levels (Platforms):
               </div>
-              <div className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-teal-500" />
-                <span>Tone Discrimination & Jyutping Drill</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
-                <span>Sentence Construction & Street Exam</span>
-              </div>
+              
+              {(inspectStation.rounds || [
+                { round: 1, title: 'Foundation Platform', subtitle: inspectStation.subtitle },
+                { round: 2, title: 'Street Conversational', subtitle: 'Variations & daily dialogue' },
+                { round: 3, title: 'Fluency Mastery', subtitle: 'Rapid response drills' },
+              ]).map((rnd) => {
+                const isCleared = metroService.getStationMastery(inspectStation.level) >= rnd.round;
+                const isCurrentTrack = metroService.getStationRound(inspectStation.level) === rnd.round;
+
+                return (
+                  <div
+                    key={rnd.round}
+                    className={`p-3 rounded-2xl border-2 transition-all flex items-center justify-between gap-2 ${
+                      isCurrentTrack
+                        ? 'border-mtr-red bg-red-50/60 dark:bg-red-950/20'
+                        : 'border-slate-300 dark:border-slate-700 bg-slate-50/60 dark:bg-slate-900/40'
+                    }`}
+                  >
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-xs font-black text-slate-900 dark:text-white">
+                          Track {rnd.round}: {rnd.title}
+                        </span>
+                        {isCleared && (
+                          <span className="text-[10px] text-emerald-600 dark:text-emerald-400 font-bold">
+                            ✓ Cleared
+                          </span>
+                        )}
+                      </div>
+                      <div className="text-[11px] font-medium text-slate-600 dark:text-slate-400 truncate mt-0.5">
+                        {rnd.subtitle}
+                      </div>
+                    </div>
+
+                    <button
+                      type="button"
+                      onClick={() => handleLaunchStation(inspectStation, rnd.round)}
+                      className={`px-3 py-2 rounded-xl text-xs font-black flex items-center gap-1 transition-all shrink-0 active:scale-95 ${
+                        isCurrentTrack
+                          ? 'bg-mtr-red text-white shadow-sm hover:bg-red-700'
+                          : 'bg-slate-200 hover:bg-slate-300 text-slate-800 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200'
+                      }`}
+                    >
+                      <Play className="w-3 h-3 fill-current" />
+                      <span>{isCleared ? 'Review' : 'Board'}</span>
+                    </button>
+                  </div>
+                );
+              })}
             </div>
 
-            {/* CTA */}
-            <div className="mt-5 flex gap-2">
+            {/* Default Quick Launch CTA */}
+            <div className="mt-4 pt-2 border-t border-slate-200 dark:border-slate-700">
               <button
                 type="button"
-                onClick={() => handleLaunchStation(inspectStation)}
+                onClick={() => handleLaunchStation(inspectStation, metroService.getStationRound(inspectStation.level))}
                 className="w-full py-3.5 px-4 rounded-xl bg-mtr-red hover:bg-red-700 text-white font-black text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md active:scale-98 transition-all"
               >
                 <Play className="w-4 h-4 fill-current" />
-                <span>{progress.completedLevels.includes(inspectStation.level) ? 'Review Station' : 'Board Station'}</span>
+                <span>Continue Station {inspectStation.level} (Track {metroService.getStationRound(inspectStation.level)})</span>
               </button>
             </div>
           </div>

@@ -22,17 +22,22 @@ export default function AppShell({ isDark, toggleTheme, onExitToLanding }) {
     setProgress({ ...metroService.getProgress() });
   };
 
-  const handleSelectStation = (lvl) => {
-    const challenges = challengeAdapter.fromLevel(lvl);
+  const handleSelectStation = (lvl, roundNumber) => {
+    const roundToPlay = roundNumber || metroService.getStationRound(lvl.level);
+    const challenges = challengeAdapter.fromLevel(lvl, roundToPlay);
     useSessionStore.getState().startSession(challenges, {
       stationName: lvl.title || lvl.chineseTitle || 'Level',
       levelNumber: lvl.level,
+      roundNumber: roundToPlay,
       themeId: lvl.themeId,
     });
-    setSelectedStationLevel(lvl);
+    setSelectedStationLevel({ ...lvl, currentRound: roundToPlay });
   };
 
   const handleStationUnlocked = (nextLevelId) => {
+    const stationLevelNum = selectedStationLevel?.level || (nextLevelId ? nextLevelId - 1 : 1);
+    const currentRound = selectedStationLevel?.currentRound || 1;
+    metroService.completeStationRound(stationLevelNum, currentRound, 100);
     refreshProgress();
     setSelectedStationLevel(null);
   };

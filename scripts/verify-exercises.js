@@ -26,55 +26,58 @@ let errors = [];
 let totalExercises = 0;
 
 levelsData.forEach((l) => {
-  const nodes = challengeAdapter.fromLevel(l);
-  totalExercises += nodes.length;
+  const roundCount = Array.isArray(l.rounds) ? l.rounds.length : 1;
+  for (let r = 1; r <= roundCount; r++) {
+    const nodes = challengeAdapter.fromLevel(l, r);
+    totalExercises += nodes.length;
 
-  nodes.forEach((n) => {
-    // 1. Multiple choice
-    if (n.type === 'multiple_choice') {
-      if (!Array.isArray(n.options) || n.options.length < 2) {
-        errors.push(`L${l.level} ${n.id}: options missing or < 2`);
-      }
-      if (typeof n.correctIndex !== 'number' || n.correctIndex < 0 || n.correctIndex >= n.options.length) {
-        errors.push(`L${l.level} ${n.id}: invalid correctIndex ${n.correctIndex} for options length ${n.options?.length}`);
-      }
-    }
-
-    // 2. Tone discrimination
-    if (n.type === 'tone_discrimination') {
-      if (!Array.isArray(n.options) || !n.options.includes(n.correctTone)) {
-        errors.push(`L${l.level} ${n.id}: correctTone ${n.correctTone} not in options ${JSON.stringify(n.options)}`);
-      }
-    }
-
-    // 3. Token scramble (sentence builder)
-    if (n.type === 'token_scramble') {
-      const poolCounts = {};
-      n.pool.forEach((t) => (poolCounts[t] = (poolCounts[t] || 0) + 1));
-      const targetCounts = {};
-      n.target.forEach((t) => (targetCounts[t] = (targetCounts[t] || 0) + 1));
-      for (const t of Object.keys(targetCounts)) {
-        if ((poolCounts[t] || 0) < targetCounts[t]) {
-          errors.push(
-            `L${l.level} ${n.id}: pool lacks sufficient copies of token "${t}" (has ${poolCounts[t] || 0}, needs ${targetCounts[t]})`
-          );
+    nodes.forEach((n) => {
+      // 1. Multiple choice
+      if (n.type === 'multiple_choice') {
+        if (!Array.isArray(n.options) || n.options.length < 2) {
+          errors.push(`L${l.level} (R${r}) ${n.id}: options missing or < 2`);
+        }
+        if (typeof n.correctIndex !== 'number' || n.correctIndex < 0 || n.correctIndex >= n.options.length) {
+          errors.push(`L${l.level} (R${r}) ${n.id}: invalid correctIndex ${n.correctIndex} for options length ${n.options?.length}`);
         }
       }
-    }
 
-    // 4. Pattern slot
-    if (n.type === 'pattern_slot') {
-      const parts = [];
-      if (n.fixedPrefix) parts.push(n.fixedPrefix);
-      (n.slots || []).forEach((s) => parts.push(s.correct));
-      if (n.fixedSuffix) parts.push(n.fixedSuffix);
-      const assembled = norm(parts.join(' '));
-      const target = norm(n.targetSentence || '');
-      if (assembled !== target) {
-        errors.push(`L${l.level} ${n.id}: assembled "${assembled}" does not match target "${target}"`);
+      // 2. Tone discrimination
+      if (n.type === 'tone_discrimination') {
+        if (!Array.isArray(n.options) || !n.options.includes(n.correctTone)) {
+          errors.push(`L${l.level} (R${r}) ${n.id}: correctTone ${n.correctTone} not in options ${JSON.stringify(n.options)}`);
+        }
       }
-    }
-  });
+
+      // 3. Token scramble (sentence builder)
+      if (n.type === 'token_scramble') {
+        const poolCounts = {};
+        n.pool.forEach((t) => (poolCounts[t] = (poolCounts[t] || 0) + 1));
+        const targetCounts = {};
+        n.target.forEach((t) => (targetCounts[t] = (targetCounts[t] || 0) + 1));
+        for (const t of Object.keys(targetCounts)) {
+          if ((poolCounts[t] || 0) < targetCounts[t]) {
+            errors.push(
+              `L${l.level} (R${r}) ${n.id}: pool lacks sufficient copies of token "${t}" (has ${poolCounts[t] || 0}, needs ${targetCounts[t]})`
+            );
+          }
+        }
+      }
+
+      // 4. Pattern slot
+      if (n.type === 'pattern_slot') {
+        const parts = [];
+        if (n.fixedPrefix) parts.push(n.fixedPrefix);
+        (n.slots || []).forEach((s) => parts.push(s.correct));
+        if (n.fixedSuffix) parts.push(n.fixedSuffix);
+        const assembled = norm(parts.join(' '));
+        const target = norm(n.targetSentence || '');
+        if (assembled !== target) {
+          errors.push(`L${l.level} (R${r}) ${n.id}: assembled "${assembled}" does not match target "${target}"`);
+        }
+      }
+    });
+  }
 });
 
 if (errors.length === 0) {

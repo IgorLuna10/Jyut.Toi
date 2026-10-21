@@ -457,13 +457,35 @@ function getAcousticDistractors(jyutping) {
 }
 
 export const challengeAdapter = {
-  fromLevel(level) {
+  fromLevel(level, roundNumber = 1) {
     if (!level) return [];
 
+    let effectiveLevel = level;
+    if (Array.isArray(level.rounds) && level.rounds.length > 0) {
+      const roundIdx =
+        typeof roundNumber === 'number' && roundNumber >= 1 && roundNumber <= level.rounds.length
+          ? roundNumber - 1
+          : 0;
+      const r = level.rounds[roundIdx];
+      if (r) {
+        effectiveLevel = {
+          ...level,
+          vocab: r.vocab || level.vocab,
+          toneDrill: r.toneDrill || level.toneDrill,
+          sentence: r.sentence || level.sentence,
+          exam: r.exam || level.exam,
+          subtitle: r.subtitle || level.subtitle,
+          roundTitle: r.title,
+          roundNumber: r.round || (roundIdx + 1),
+        };
+      }
+    }
+
     const nodes = [];
-    const levelNum = level.level || 1;
-    const themeId = level.themeId || 'red';
-    const vocabList = Array.isArray(level.vocab) ? level.vocab : [];
+    const levelNum = effectiveLevel.level || 1;
+    const currentRound = effectiveLevel.roundNumber || 1;
+    const themeId = effectiveLevel.themeId || 'red';
+    const vocabList = Array.isArray(effectiveLevel.vocab) ? effectiveLevel.vocab : [];
 
     // 1. EAR TRAINING SOUND IDENTIFICATION: "What do you hear?"
     if (vocabList.length > 0) {
@@ -556,10 +578,10 @@ export const challengeAdapter = {
     }
 
     // 4. ACOUSTIC TONE DISCRIMINATION: "Which tone is it?"
-    if (Array.isArray(level.toneDrill) && level.toneDrill.length > 0) {
-      level.toneDrill.slice(0, 2).forEach((td, idx) => {
+    if (Array.isArray(effectiveLevel.toneDrill) && effectiveLevel.toneDrill.length > 0) {
+      effectiveLevel.toneDrill.slice(0, 2).forEach((td, idx) => {
         nodes.push({
-          id: `lvl_${levelNum}_tone_${idx}`,
+          id: `lvl_${levelNum}_r${currentRound}_tone_${idx}`,
           type: 'tone_discrimination',
           title: 'Tones',
           prompt: 'Which tone is it?',
@@ -581,7 +603,7 @@ export const challengeAdapter = {
     const scenario = SITUATIONAL_SCENARIOS[levelNum];
     if (scenario) {
       nodes.push({
-        id: `lvl_${levelNum}_scenario`,
+        id: `lvl_${levelNum}_r${currentRound}_scenario`,
         type: 'multiple_choice',
         title: 'Conversation',
         prompt: 'Choose what to say',
@@ -595,12 +617,12 @@ export const challengeAdapter = {
     }
 
     // 6. TACTILE SENTENCE ASSEMBLER: "Build the sentence"
-    if (level.sentence && Array.isArray(level.sentence.target)) {
-      const s = level.sentence;
+    if (effectiveLevel.sentence && Array.isArray(effectiveLevel.sentence.target)) {
+      const s = effectiveLevel.sentence;
       const pool = [...(s.pool || s.target)].sort(() => Math.random() - 0.5);
 
       nodes.push({
-        id: `lvl_${levelNum}_sentence`,
+        id: `lvl_${levelNum}_r${currentRound}_sentence`,
         type: 'token_scramble',
         title: 'Sentence',
         prompt: 'Build the sentence',
